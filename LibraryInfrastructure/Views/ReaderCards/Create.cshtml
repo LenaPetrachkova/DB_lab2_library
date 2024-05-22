@@ -1,0 +1,70 @@
+﻿@model LibraryDomain.Model.ReaderCard
+
+@{
+    ViewData["Title"] = "Create";
+}
+
+<h1>Створення</h1>
+
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Create">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <label asp-for="RentDate" class="control-label"></label>
+                <input asp-for="RentDate" class="form-control datepicker-rent" />
+                <span asp-validation-for="RentDate" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="ReturnDate" class="control-label"></label>
+                <input asp-for="ReturnDate" class="form-control datepicker-return" />
+                <span asp-validation-for="ReturnDate" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="ReaderId" class="control-label">Читач</label>
+                <select asp-for="ReaderId" class="form-control" asp-items="ViewBag.ReaderId"></select>
+            </div>
+            <div class="form-group">
+                <label asp-for="BookId" class="control-label">Книга</label>
+                <select asp-for="BookId" class="form-control" asp-items="ViewBag.BookId"></select>
+            </div>
+            <div class="form-group">
+                <label asp-for="LibrarianId" class="control-label">Бібліотекар</label>
+                <select asp-for="LibrarianId" class="form-control" asp-items="ViewBag.LibrarianId"></select>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Додати" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="Index">Назад</a>
+</div>
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.9.0/css/bootstrap-datepicker.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.9.0/js/bootstrap-datepicker.min.js"></script>
+
+    <script>
+        $(document).ready(function () {
+            var today = new Date();
+            $('.datepicker-rent').datepicker({
+                format: 'dd.mm.yyyy',
+                autoclose: true,
+                endDate: today
+            });
+            $('.datepicker-return').datepicker({
+                format: 'dd.mm.yyyy',
+                autoclose: true,
+                startDate: today
+            });
+        });
+    </script>
+}

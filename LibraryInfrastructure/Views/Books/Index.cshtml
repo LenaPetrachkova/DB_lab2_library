@@ -1,0 +1,103 @@
+﻿@model IEnumerable<LibraryDomain.Model.Book>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Книги</h1>
+
+<p>
+    <a asp-action="Create">Додати книгу</a>
+</p>
+
+<form method="get" asp-action="Index" class="d-flex flex-wrap">
+    <div class="form-group mr-2" style="margin-right:10px;">
+        <label for="title" class="mr-2">Id</label>
+        <input type="text" class="form-control" id="id" name="id" value="@Context.Request.Query["id"]" />
+    </div>
+    <div class="form-group mr-2" style="margin-right:10px;">
+        <label for="title" class="mr-2">Назва</label>
+        <input type="text" class="form-control" id="title" name="title" value="@Context.Request.Query["title"]" />
+    </div>
+    <div class="form-group mr-2" style="margin-right:10px;">
+        <label for="annotation" class="mr-2">Анотація</label>
+        <input type="text" class="form-control" id="annotation" name="annotation" value="@Context.Request.Query["annotation"]" />
+    </div>
+    <div class="form-group mr-2" style="margin-right:10px;">
+        <label for="yearOfPublish" class="mr-2">Рік публікації</label>
+        <input type="number" class="form-control" id="yearOfPublish" name="yearOfPublish" value="@Context.Request.Query["yearOfPublish"]" />
+    </div>
+    <div class="form-group mr-2" style="margin-right:10px;">
+        <label for="amount" class="mr-2">Кількість</label>
+        <input type="number" class="form-control" id="amount" name="amount" value="@Context.Request.Query["amount"]" />
+    </div>
+    <div class="form-group mr-2" style="margin-right:10px;">
+        <label for="author" class="mr-2">Автор</label>
+        <input type="text" class="form-control" id="author" name="author" value="@Context.Request.Query["author"]" />
+    </div>
+    <div class="form-group mr-2" style="margin-right:10px;">
+        <label for="topic" class="mr-2">Жанр</label>
+        <input type="text" class="form-control" id="topic" name="topic" value="@Context.Request.Query["topic"]" />
+    </div>
+    <div class="form-group" style="margin-top:25px;">
+        <button type="submit" class="btn btn-primary">Пошук</button>
+    </div>
+</form>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>@Html.DisplayNameFor(model => model.Id)</th>
+            <th>@Html.DisplayNameFor(model => model.Title)</th>
+            <th>@Html.DisplayNameFor(model => model.Annotation)</th>
+            <th>@Html.DisplayNameFor(model => model.YearOfPublish)</th>
+            <th>@Html.DisplayNameFor(model => model.Amount)</th>
+            <th>Жанри</th>
+            <th>Автори</th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>@Html.DisplayFor(modelItem => item.Id)</td>
+                <td>@Html.DisplayFor(modelItem => item.Title)</td>
+                <td>@Html.DisplayFor(modelItem => item.Annotation)</td>
+                <td>@Html.DisplayFor(modelItem => item.YearOfPublish)</td>
+                <td>@Html.DisplayFor(modelItem => item.Amount)</td>
+                <td>
+                    @if (item.TopicBooks != null && item.TopicBooks.Any())
+                    {
+                        @foreach (var topicBook in item.TopicBooks)
+                        {
+                            @topicBook.Topic.Name <br />
+                        }
+                    }
+                    else
+                    {
+                        <span>Немає жанрів</span>
+                    }
+                </td>
+                <td>
+                    @if (item.AuthorBooks != null && item.AuthorBooks.Any())
+                    {
+                        @foreach (var bookAuthor in item.AuthorBooks)
+                        {
+                            @bookAuthor.Author.FirstName @bookAuthor.Author.LastName @bookAuthor.Author.FatherName <br />
+                        }
+                    }
+                    else
+                    {
+                        <span>Немає авторів</span>
+                    }
+                </td>
+                <td>
+                    <a asp-action="Edit" asp-route-id="@item.Id">Редагувати</a> |
+                    <a asp-action="Details" asp-route-id="@item.Id">Деталі</a> |
+                    <a asp-action="Delete" asp-route-id="@item.Id">Видалити</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

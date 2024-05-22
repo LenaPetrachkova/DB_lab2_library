@@ -1,0 +1,55 @@
+﻿@model LibraryDomain.Model.Reader
+
+@{
+    ViewData["Title"] = "Details";
+}
+
+<h1>Детальна інформація</h1>
+
+<div>
+    <hr />
+    <dl class="row">
+        <dt class="col-sm-2">@Html.DisplayNameFor(model => model.FirstName)</dt>
+        <dd class="col-sm-10">@Html.DisplayFor(model => model.FirstName)</dd>
+
+        <dt class="col-sm-2">@Html.DisplayNameFor(model => model.LastName)</dt>
+        <dd class="col-sm-10">@Html.DisplayFor(model => model.LastName)</dd>
+
+        <dt class="col-sm-2">@Html.DisplayNameFor(model => model.Faculty)</dt>
+        <dd class="col-sm-10">@Html.DisplayFor(model => model.Faculty)</dd>
+
+        <dt class="col-sm-2">@Html.DisplayNameFor(model => model.Department)</dt>
+        <dd class="col-sm-10">@Html.DisplayFor(model => model.Department)</dd>
+
+        <dt class="col-sm-2">@Html.DisplayNameFor(model => model.PhoneNumber)</dt>
+        <dd class="col-sm-10">@Html.DisplayFor(model => model.PhoneNumber)</dd>
+    </dl>
+</div>
+
+<div>
+    <h2>Орендовані книги</h2>
+    <table class="table">
+        <thead>
+            <tr>
+                <th>@Html.DisplayNameFor(model => model.ReaderCards.First().Book.Title)</th>
+                <th>@Html.DisplayNameFor(model => model.ReaderCards.First().RentDate)</th>
+                <th>@Html.DisplayNameFor(model => model.ReaderCards.First().ReturnDate)</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var readerCard in Model.ReaderCards)
+            {
+                <tr>
+                    <td>@readerCard.Book.Title</td>
+                    <td>@readerCard.RentDate.ToShortDateString()</td>
+                    <td>@readerCard.ReturnDate.ToShortDateString()</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>
+
+<div>
+    <a asp-action="Edit" asp-route-id="@Model?.Id">Редагувати</a> |
+    <a asp-action="Index">Назад</a>
+</div>

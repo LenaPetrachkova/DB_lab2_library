@@ -1,0 +1,62 @@
+﻿@model LibraryDomain.Model.Book
+
+@{
+    ViewData["Title"] = "Delete";
+}
+
+<h1>Ви впевнені, що хочете видалити цю книгу?</h1>
+<div>
+    <hr />
+    <dl class="row">
+        <dt class="col-sm-2">@Html.DisplayNameFor(model => model.Id)</dt>
+        <dd class="col-sm-10">@Html.DisplayFor(model => model.Id)</dd>
+
+        <dt class="col-sm-2">@Html.DisplayNameFor(model => model.Title)</dt>
+        <dd class="col-sm-10">@Html.DisplayFor(model => model.Title)</dd>
+
+        <dt class="col-sm-2">@Html.DisplayNameFor(model => model.Annotation)</dt>
+        <dd class="col-sm-10">@Html.DisplayFor(model => model.Annotation)</dd>
+
+        <dt class="col-sm-2">@Html.DisplayNameFor(model => model.YearOfPublish)</dt>
+        <dd class="col-sm-10">@Html.DisplayFor(model => model.YearOfPublish)</dd>
+
+        <dt class="col-sm-2">@Html.DisplayNameFor(model => model.Amount)</dt>
+        <dd class="col-sm-10">@Html.DisplayFor(model => model.Amount)</dd>
+
+        <dt class="col-sm-2">Жанри</dt>
+        <dd class="col-sm-10">
+            @foreach (var topicBook in Model.TopicBooks)
+            {
+                @topicBook.Topic.Name <br />
+            }
+        </dd>
+        <dt class="col-sm-2">Автори</dt>
+        <dd class="col-sm-10">
+            @foreach (var bookAuthor in Model.AuthorBooks)
+            {
+                @bookAuthor.Author.LastName @bookAuthor.Author.FirstName <br />
+            }
+        </dd>
+    </dl>
+
+    @if (TempData["DeleteOneError"] != null)
+    {
+        <div class="alert alert-danger">
+            @TempData["DeleteOneError"]
+        </div>
+    }
+
+    <form asp-action="DeleteConfirmed" method="post">
+        <input type="hidden" asp-for="Id" />
+        <input type="submit" value="Видалити книгу повністю" class="btn btn-danger" />
+    </form>
+
+    <form asp-action="DeleteOneInstance" method="post" style="margin-top:10px;">
+        <input type="hidden" asp-for="Id" />
+        <input type="submit" value="Видалити один екземпляр" class="btn btn-warning" />
+    </form>
+</div>
+
+<div>
+    <a asp-action="Index">Назад</a>
+</div>

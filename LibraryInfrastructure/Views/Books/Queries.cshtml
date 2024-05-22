@@ -1,0 +1,89 @@
+﻿@model IEnumerable<LibraryDomain.Model.Book>
+
+@{
+    ViewData["Title"] = "Queries";
+}
+
+<h1>Запити</h1>
+
+<div class="container">
+    <form method="get" asp-action="BooksByAuthor">
+        <h4>Книги за автором</h4>
+        <div class="form-group">
+            <label for="authorName">Ім'я автора:</label>
+            <input type="text" id="authorName" name="authorName" class="form-control" />
+        </div>
+        <button type="submit" class="btn btn-primary" style="margin-top:20px; margin-bottom:30px;">Виконати</button>
+    </form>
+
+    <form method="get" asp-action="BooksByTopic">
+        <h4>Книги за темою</h4>
+        <div class="form-group">
+            <label for="topicName">Жанр:</label>
+            <input type="text" id="topicName" name="topicName" class="form-control" />
+        </div>
+        <button type="submit" class="btn btn-primary" style="margin-top:20px; margin-bottom:30px;">Виконати</button>
+    </form>
+
+    <form method="get" asp-action="BooksByReader">
+        <h4>Книги взяті читачем</h4>
+        <div class="form-group">
+            <label for="readerName">Ім'я читача:</label>
+            <input type="text" id="readerName" name="readerName" class="form-control" />
+        </div>
+        <button type="submit" class="btn btn-primary" style="margin-top:20px; margin-bottom:30px;">Виконати</button>
+    </form>
+
+    <form method="get" asp-action="BooksByYear">
+        <h4>Книги за роком видання</h4>
+        <div class="form-group">
+            <label for="year">Рік видання:</label>
+            <input type="number" id="year" name="year" class="form-control" />
+        </div>
+        <button type="submit" class="btn btn-primary" style="margin-top:20px; margin-bottom:30px;">Виконати</button>
+    </form>
+
+    <form method="get" asp-action="BooksByAmount">
+        <h4>Книги за кількістю</h4>
+        <div class="form-group">
+            <label for="amount">Кількість:</label>
+            <input type="number" id="amount" name="amount" class="form-control" />
+        </div>
+        <button type="submit" class="btn btn-primary" style="margin-top:20px; margin-bottom:30px;">Виконати</button>
+    </form>
+
+    <form method="get" asp-action="BooksByAuthorAndTopic">
+        <h4>Книги за автором та темою</h4>
+        <div class="form-group">
+            <label for="authorName">Ім'я автора:</label>
+            <input type="text" id="authorName" name="authorName" class="form-control" />
+        </div>
+        <div class="form-group">
+            <label for="topicName">Жанр:</label>
+            <input type="text" id="topicName" name="topicName" class="form-control" />
+        </div>
+        <button type="submit" class="btn btn-primary" style="margin-top:20px; margin-bottom:30px;">Виконати</button>
+    </form>
+
+    <form method="get" asp-action="BooksByYearAndAmount">
+        <h4>Книги, видані після певного року і доступні у більшій кількості ніж задана</h4>
+        <div class="form-group">
+            <label for="year">Рік видання:</label>
+            <input type="number" id="year" name="year" class="form-control" />
+        </div>
+        <div class="form-group">
+            <label for="amount">Кількість:</label>
+            <input type="number" id="amount" name="amount" class="form-control" />
+        </div>
+        <button type="submit" class="btn btn-primary" style="margin-top:20px; margin-bottom:30px;">Виконати</button>
+    </form>
+
+    <form method="get" asp-action="BooksPublishedInLastYears">
+        <h4>Книги, видані за останні N років</h4>
+        <div class="form-group">
+            <label for="years">N років:</label>
+            <input type="number" id="years" name="years" class="form-control" />
+        </div>
+        <button type="submit" class="btn btn-primary" style="margin-top:20px; margin-bottom:30px;">Виконати</button>
+    </form>
+</div>

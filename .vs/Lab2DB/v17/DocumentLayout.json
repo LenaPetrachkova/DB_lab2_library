@@ -1,0 +1,919 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Professional\\source\\repos\\Lab2DB\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{D56DC8A3-8751-4178-B19E-50B676E657D8}|LibraryInfrastructure\\LibraryInfrastructure.csproj|c:\\users\\professional\\source\\repos\\lab2db\\libraryinfrastructure\\views\\books\\queries.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D56DC8A3-8751-4178-B19E-50B676E657D8}|LibraryInfrastructure\\LibraryInfrastructure.csproj|solutionrelative:libraryinfrastructure\\views\\books\\queries.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D56DC8A3-8751-4178-B19E-50B676E657D8}|LibraryInfrastructure\\LibraryInfrastructure.csproj|c:\\users\\professional\\source\\repos\\lab2db\\libraryinfrastructure\\views\\readers\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D56DC8A3-8751-4178-B19E-50B676E657D8}|LibraryInfrastructure\\LibraryInfrastructure.csproj|solutionrelative:libraryinfrastructure\\views\\readers\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D56DC8A3-8751-4178-B19E-50B676E657D8}|LibraryInfrastructure\\LibraryInfrastructure.csproj|c:\\users\\professional\\source\\repos\\lab2db\\libraryinfrastructure\\views\\books\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D56DC8A3-8751-4178-B19E-50B676E657D8}|LibraryInfrastructure\\LibraryInfrastructure.csproj|solutionrelative:libraryinfrastructure\\views\\books\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D56DC8A3-8751-4178-B19E-50B676E657D8}|LibraryInfrastructure\\LibraryInfrastructure.csproj|c:\\users\\professional\\source\\repos\\lab2db\\libraryinfrastructure\\controllers\\bookscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D56DC8A3-8751-4178-B19E-50B676E657D8}|LibraryInfrastructure\\LibraryInfrastructure.csproj|solutionrelative:libraryinfrastructure\\controllers\\bookscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D56DC8A3-8751-4178-B19E-50B676E657D8}|LibraryInfrastructure\\LibraryInfrastructure.csproj|c:\\users\\professional\\source\\repos\\lab2db\\libraryinfrastructure\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D56DC8A3-8751-4178-B19E-50B676E657D8}|LibraryInfrastructure\\LibraryInfrastructure.csproj|solutionrelative:libraryinfrastructure\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0D9AE9FA-378F-4143-9DBC-E2B955E7A8DF}|LibraryDomain\\LibraryDomain.csproj|c:\\users\\professional\\source\\repos\\lab2db\\librarydomain\\model\\book.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0D9AE9FA-378F-4143-9DBC-E2B955E7A8DF}|LibraryDomain\\LibraryDomain.csproj|solutionrelative:librarydomain\\model\\book.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D56DC8A3-8751-4178-B19E-50B676E657D8}|LibraryInfrastructure\\LibraryInfrastructure.csproj|c:\\users\\professional\\source\\repos\\lab2db\\libraryinfrastructure\\controllers\\readercardscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D56DC8A3-8751-4178-B19E-50B676E657D8}|LibraryInfrastructure\\LibraryInfrastructure.csproj|solutionrelative:libraryinfrastructure\\controllers\\readercardscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D56DC8A3-8751-4178-B19E-50B676E657D8}|LibraryInfrastructure\\LibraryInfrastructure.csproj|c:\\users\\professional\\source\\repos\\lab2db\\libraryinfrastructure\\views\\books\\query1result.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D56DC8A3-8751-4178-B19E-50B676E657D8}|LibraryInfrastructure\\LibraryInfrastructure.csproj|solutionrelative:libraryinfrastructure\\views\\books\\query1result.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D56DC8A3-8751-4178-B19E-50B676E657D8}|LibraryInfrastructure\\LibraryInfrastructure.csproj|c:\\users\\professional\\source\\repos\\lab2db\\libraryinfrastructure\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D56DC8A3-8751-4178-B19E-50B676E657D8}|LibraryInfrastructure\\LibraryInfrastructure.csproj|solutionrelative:libraryinfrastructure\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D56DC8A3-8751-4178-B19E-50B676E657D8}|LibraryInfrastructure\\LibraryInfrastructure.csproj|c:\\users\\professional\\source\\repos\\lab2db\\libraryinfrastructure\\lab2dbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D56DC8A3-8751-4178-B19E-50B676E657D8}|LibraryInfrastructure\\LibraryInfrastructure.csproj|solutionrelative:libraryinfrastructure\\lab2dbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0D9AE9FA-378F-4143-9DBC-E2B955E7A8DF}|LibraryDomain\\LibraryDomain.csproj|c:\\users\\professional\\source\\repos\\lab2db\\librarydomain\\model\\authorbook.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0D9AE9FA-378F-4143-9DBC-E2B955E7A8DF}|LibraryDomain\\LibraryDomain.csproj|solutionrelative:librarydomain\\model\\authorbook.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0D9AE9FA-378F-4143-9DBC-E2B955E7A8DF}|LibraryDomain\\LibraryDomain.csproj|c:\\users\\professional\\source\\repos\\lab2db\\librarydomain\\model\\author.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0D9AE9FA-378F-4143-9DBC-E2B955E7A8DF}|LibraryDomain\\LibraryDomain.csproj|solutionrelative:librarydomain\\model\\author.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0D9AE9FA-378F-4143-9DBC-E2B955E7A8DF}|LibraryDomain\\LibraryDomain.csproj|c:\\users\\professional\\source\\repos\\lab2db\\librarydomain\\model\\topicbook.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0D9AE9FA-378F-4143-9DBC-E2B955E7A8DF}|LibraryDomain\\LibraryDomain.csproj|solutionrelative:librarydomain\\model\\topicbook.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0D9AE9FA-378F-4143-9DBC-E2B955E7A8DF}|LibraryDomain\\LibraryDomain.csproj|c:\\users\\professional\\source\\repos\\lab2db\\librarydomain\\model\\topic.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0D9AE9FA-378F-4143-9DBC-E2B955E7A8DF}|LibraryDomain\\LibraryDomain.csproj|solutionrelative:librarydomain\\model\\topic.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0D9AE9FA-378F-4143-9DBC-E2B955E7A8DF}|LibraryDomain\\LibraryDomain.csproj|c:\\users\\professional\\source\\repos\\lab2db\\librarydomain\\model\\readercard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0D9AE9FA-378F-4143-9DBC-E2B955E7A8DF}|LibraryDomain\\LibraryDomain.csproj|solutionrelative:librarydomain\\model\\readercard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0D9AE9FA-378F-4143-9DBC-E2B955E7A8DF}|LibraryDomain\\LibraryDomain.csproj|c:\\users\\professional\\source\\repos\\lab2db\\librarydomain\\model\\reader.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0D9AE9FA-378F-4143-9DBC-E2B955E7A8DF}|LibraryDomain\\LibraryDomain.csproj|solutionrelative:librarydomain\\model\\reader.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0D9AE9FA-378F-4143-9DBC-E2B955E7A8DF}|LibraryDomain\\LibraryDomain.csproj|c:\\users\\professional\\source\\repos\\lab2db\\librarydomain\\model\\librarian.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0D9AE9FA-378F-4143-9DBC-E2B955E7A8DF}|LibraryDomain\\LibraryDomain.csproj|solutionrelative:librarydomain\\model\\librarian.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D56DC8A3-8751-4178-B19E-50B676E657D8}|LibraryInfrastructure\\LibraryInfrastructure.csproj|c:\\users\\professional\\source\\repos\\lab2db\\libraryinfrastructure\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D56DC8A3-8751-4178-B19E-50B676E657D8}|LibraryInfrastructure\\LibraryInfrastructure.csproj|solutionrelative:libraryinfrastructure\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D56DC8A3-8751-4178-B19E-50B676E657D8}|LibraryInfrastructure\\LibraryInfrastructure.csproj|c:\\users\\professional\\source\\repos\\lab2db\\libraryinfrastructure\\views\\authors\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D56DC8A3-8751-4178-B19E-50B676E657D8}|LibraryInfrastructure\\LibraryInfrastructure.csproj|solutionrelative:libraryinfrastructure\\views\\authors\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D56DC8A3-8751-4178-B19E-50B676E657D8}|LibraryInfrastructure\\LibraryInfrastructure.csproj|c:\\users\\professional\\source\\repos\\lab2db\\libraryinfrastructure\\views\\books\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D56DC8A3-8751-4178-B19E-50B676E657D8}|LibraryInfrastructure\\LibraryInfrastructure.csproj|solutionrelative:libraryinfrastructure\\views\\books\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D56DC8A3-8751-4178-B19E-50B676E657D8}|LibraryInfrastructure\\LibraryInfrastructure.csproj|c:\\users\\professional\\source\\repos\\lab2db\\libraryinfrastructure\\views\\books\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D56DC8A3-8751-4178-B19E-50B676E657D8}|LibraryInfrastructure\\LibraryInfrastructure.csproj|solutionrelative:libraryinfrastructure\\views\\books\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D56DC8A3-8751-4178-B19E-50B676E657D8}|LibraryInfrastructure\\LibraryInfrastructure.csproj|c:\\users\\professional\\source\\repos\\lab2db\\libraryinfrastructure\\views\\books\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D56DC8A3-8751-4178-B19E-50B676E657D8}|LibraryInfrastructure\\LibraryInfrastructure.csproj|solutionrelative:libraryinfrastructure\\views\\books\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D56DC8A3-8751-4178-B19E-50B676E657D8}|LibraryInfrastructure\\LibraryInfrastructure.csproj|c:\\users\\professional\\source\\repos\\lab2db\\libraryinfrastructure\\views\\books\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D56DC8A3-8751-4178-B19E-50B676E657D8}|LibraryInfrastructure\\LibraryInfrastructure.csproj|solutionrelative:libraryinfrastructure\\views\\books\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D56DC8A3-8751-4178-B19E-50B676E657D8}|LibraryInfrastructure\\LibraryInfrastructure.csproj|c:\\users\\professional\\source\\repos\\lab2db\\libraryinfrastructure\\views\\readercards\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D56DC8A3-8751-4178-B19E-50B676E657D8}|LibraryInfrastructure\\LibraryInfrastructure.csproj|solutionrelative:libraryinfrastructure\\views\\readercards\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D56DC8A3-8751-4178-B19E-50B676E657D8}|LibraryInfrastructure\\LibraryInfrastructure.csproj|c:\\users\\professional\\source\\repos\\lab2db\\libraryinfrastructure\\views\\readercards\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D56DC8A3-8751-4178-B19E-50B676E657D8}|LibraryInfrastructure\\LibraryInfrastructure.csproj|solutionrelative:libraryinfrastructure\\views\\readercards\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D56DC8A3-8751-4178-B19E-50B676E657D8}|LibraryInfrastructure\\LibraryInfrastructure.csproj|c:\\users\\professional\\source\\repos\\lab2db\\libraryinfrastructure\\views\\readercards\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D56DC8A3-8751-4178-B19E-50B676E657D8}|LibraryInfrastructure\\LibraryInfrastructure.csproj|solutionrelative:libraryinfrastructure\\views\\readercards\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D56DC8A3-8751-4178-B19E-50B676E657D8}|LibraryInfrastructure\\LibraryInfrastructure.csproj|c:\\users\\professional\\source\\repos\\lab2db\\libraryinfrastructure\\views\\readers\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D56DC8A3-8751-4178-B19E-50B676E657D8}|LibraryInfrastructure\\LibraryInfrastructure.csproj|solutionrelative:libraryinfrastructure\\views\\readers\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D56DC8A3-8751-4178-B19E-50B676E657D8}|LibraryInfrastructure\\LibraryInfrastructure.csproj|c:\\users\\professional\\source\\repos\\lab2db\\libraryinfrastructure\\controllers\\readerscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D56DC8A3-8751-4178-B19E-50B676E657D8}|LibraryInfrastructure\\LibraryInfrastructure.csproj|solutionrelative:libraryinfrastructure\\controllers\\readerscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D56DC8A3-8751-4178-B19E-50B676E657D8}|LibraryInfrastructure\\LibraryInfrastructure.csproj|c:\\users\\professional\\source\\repos\\lab2db\\libraryinfrastructure\\views\\readercards\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D56DC8A3-8751-4178-B19E-50B676E657D8}|LibraryInfrastructure\\LibraryInfrastructure.csproj|solutionrelative:libraryinfrastructure\\views\\readercards\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D56DC8A3-8751-4178-B19E-50B676E657D8}|LibraryInfrastructure\\LibraryInfrastructure.csproj|c:\\users\\professional\\source\\repos\\lab2db\\libraryinfrastructure\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D56DC8A3-8751-4178-B19E-50B676E657D8}|LibraryInfrastructure\\LibraryInfrastructure.csproj|solutionrelative:libraryinfrastructure\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D56DC8A3-8751-4178-B19E-50B676E657D8}|LibraryInfrastructure\\LibraryInfrastructure.csproj|c:\\users\\professional\\source\\repos\\lab2db\\libraryinfrastructure\\views\\readercards\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D56DC8A3-8751-4178-B19E-50B676E657D8}|LibraryInfrastructure\\LibraryInfrastructure.csproj|solutionrelative:libraryinfrastructure\\views\\readercards\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D56DC8A3-8751-4178-B19E-50B676E657D8}|LibraryInfrastructure\\LibraryInfrastructure.csproj|c:\\users\\professional\\source\\repos\\lab2db\\libraryinfrastructure\\views\\librarians\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D56DC8A3-8751-4178-B19E-50B676E657D8}|LibraryInfrastructure\\LibraryInfrastructure.csproj|solutionrelative:libraryinfrastructure\\views\\librarians\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D56DC8A3-8751-4178-B19E-50B676E657D8}|LibraryInfrastructure\\LibraryInfrastructure.csproj|c:\\users\\professional\\source\\repos\\lab2db\\libraryinfrastructure\\views\\librarians\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D56DC8A3-8751-4178-B19E-50B676E657D8}|LibraryInfrastructure\\LibraryInfrastructure.csproj|solutionrelative:libraryinfrastructure\\views\\librarians\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D56DC8A3-8751-4178-B19E-50B676E657D8}|LibraryInfrastructure\\LibraryInfrastructure.csproj|c:\\users\\professional\\source\\repos\\lab2db\\libraryinfrastructure\\views\\librarians\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D56DC8A3-8751-4178-B19E-50B676E657D8}|LibraryInfrastructure\\LibraryInfrastructure.csproj|solutionrelative:libraryinfrastructure\\views\\librarians\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D56DC8A3-8751-4178-B19E-50B676E657D8}|LibraryInfrastructure\\LibraryInfrastructure.csproj|c:\\users\\professional\\source\\repos\\lab2db\\libraryinfrastructure\\views\\librarians\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D56DC8A3-8751-4178-B19E-50B676E657D8}|LibraryInfrastructure\\LibraryInfrastructure.csproj|solutionrelative:libraryinfrastructure\\views\\librarians\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D56DC8A3-8751-4178-B19E-50B676E657D8}|LibraryInfrastructure\\LibraryInfrastructure.csproj|c:\\users\\professional\\source\\repos\\lab2db\\libraryinfrastructure\\views\\librarians\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D56DC8A3-8751-4178-B19E-50B676E657D8}|LibraryInfrastructure\\LibraryInfrastructure.csproj|solutionrelative:libraryinfrastructure\\views\\librarians\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D56DC8A3-8751-4178-B19E-50B676E657D8}|LibraryInfrastructure\\LibraryInfrastructure.csproj|c:\\users\\professional\\source\\repos\\lab2db\\libraryinfrastructure\\controllers\\librarianscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D56DC8A3-8751-4178-B19E-50B676E657D8}|LibraryInfrastructure\\LibraryInfrastructure.csproj|solutionrelative:libraryinfrastructure\\controllers\\librarianscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D56DC8A3-8751-4178-B19E-50B676E657D8}|LibraryInfrastructure\\LibraryInfrastructure.csproj|c:\\users\\professional\\source\\repos\\lab2db\\libraryinfrastructure\\views\\readers\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D56DC8A3-8751-4178-B19E-50B676E657D8}|LibraryInfrastructure\\LibraryInfrastructure.csproj|solutionrelative:libraryinfrastructure\\views\\readers\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D56DC8A3-8751-4178-B19E-50B676E657D8}|LibraryInfrastructure\\LibraryInfrastructure.csproj|c:\\users\\professional\\source\\repos\\lab2db\\libraryinfrastructure\\views\\readers\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D56DC8A3-8751-4178-B19E-50B676E657D8}|LibraryInfrastructure\\LibraryInfrastructure.csproj|solutionrelative:libraryinfrastructure\\views\\readers\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D56DC8A3-8751-4178-B19E-50B676E657D8}|LibraryInfrastructure\\LibraryInfrastructure.csproj|c:\\users\\professional\\source\\repos\\lab2db\\libraryinfrastructure\\views\\readers\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D56DC8A3-8751-4178-B19E-50B676E657D8}|LibraryInfrastructure\\LibraryInfrastructure.csproj|solutionrelative:libraryinfrastructure\\views\\readers\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D56DC8A3-8751-4178-B19E-50B676E657D8}|LibraryInfrastructure\\LibraryInfrastructure.csproj|c:\\users\\professional\\source\\repos\\lab2db\\libraryinfrastructure\\views\\authors\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D56DC8A3-8751-4178-B19E-50B676E657D8}|LibraryInfrastructure\\LibraryInfrastructure.csproj|solutionrelative:libraryinfrastructure\\views\\authors\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D56DC8A3-8751-4178-B19E-50B676E657D8}|LibraryInfrastructure\\LibraryInfrastructure.csproj|c:\\users\\professional\\source\\repos\\lab2db\\libraryinfrastructure\\views\\authors\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D56DC8A3-8751-4178-B19E-50B676E657D8}|LibraryInfrastructure\\LibraryInfrastructure.csproj|solutionrelative:libraryinfrastructure\\views\\authors\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D56DC8A3-8751-4178-B19E-50B676E657D8}|LibraryInfrastructure\\LibraryInfrastructure.csproj|c:\\users\\professional\\source\\repos\\lab2db\\libraryinfrastructure\\views\\authors\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D56DC8A3-8751-4178-B19E-50B676E657D8}|LibraryInfrastructure\\LibraryInfrastructure.csproj|solutionrelative:libraryinfrastructure\\views\\authors\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D56DC8A3-8751-4178-B19E-50B676E657D8}|LibraryInfrastructure\\LibraryInfrastructure.csproj|c:\\users\\professional\\source\\repos\\lab2db\\libraryinfrastructure\\views\\authors\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D56DC8A3-8751-4178-B19E-50B676E657D8}|LibraryInfrastructure\\LibraryInfrastructure.csproj|solutionrelative:libraryinfrastructure\\views\\authors\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D56DC8A3-8751-4178-B19E-50B676E657D8}|LibraryInfrastructure\\LibraryInfrastructure.csproj|c:\\users\\professional\\source\\repos\\lab2db\\libraryinfrastructure\\controllers\\authorscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D56DC8A3-8751-4178-B19E-50B676E657D8}|LibraryInfrastructure\\LibraryInfrastructure.csproj|solutionrelative:libraryinfrastructure\\controllers\\authorscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D56DC8A3-8751-4178-B19E-50B676E657D8}|LibraryInfrastructure\\LibraryInfrastructure.csproj|c:\\users\\professional\\source\\repos\\lab2db\\libraryinfrastructure\\views\\topics\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D56DC8A3-8751-4178-B19E-50B676E657D8}|LibraryInfrastructure\\LibraryInfrastructure.csproj|solutionrelative:libraryinfrastructure\\views\\topics\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D56DC8A3-8751-4178-B19E-50B676E657D8}|LibraryInfrastructure\\LibraryInfrastructure.csproj|c:\\users\\professional\\source\\repos\\lab2db\\libraryinfrastructure\\controllers\\topicscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D56DC8A3-8751-4178-B19E-50B676E657D8}|LibraryInfrastructure\\LibraryInfrastructure.csproj|solutionrelative:libraryinfrastructure\\controllers\\topicscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D56DC8A3-8751-4178-B19E-50B676E657D8}|LibraryInfrastructure\\LibraryInfrastructure.csproj|c:\\users\\professional\\source\\repos\\lab2db\\libraryinfrastructure\\views\\topics\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D56DC8A3-8751-4178-B19E-50B676E657D8}|LibraryInfrastructure\\LibraryInfrastructure.csproj|solutionrelative:libraryinfrastructure\\views\\topics\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D56DC8A3-8751-4178-B19E-50B676E657D8}|LibraryInfrastructure\\LibraryInfrastructure.csproj|c:\\users\\professional\\source\\repos\\lab2db\\libraryinfrastructure\\views\\topics\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D56DC8A3-8751-4178-B19E-50B676E657D8}|LibraryInfrastructure\\LibraryInfrastructure.csproj|solutionrelative:libraryinfrastructure\\views\\topics\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D56DC8A3-8751-4178-B19E-50B676E657D8}|LibraryInfrastructure\\LibraryInfrastructure.csproj|c:\\users\\professional\\source\\repos\\lab2db\\libraryinfrastructure\\views\\topics\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D56DC8A3-8751-4178-B19E-50B676E657D8}|LibraryInfrastructure\\LibraryInfrastructure.csproj|solutionrelative:libraryinfrastructure\\views\\topics\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D56DC8A3-8751-4178-B19E-50B676E657D8}|LibraryInfrastructure\\LibraryInfrastructure.csproj|c:\\users\\professional\\source\\repos\\lab2db\\libraryinfrastructure\\views\\topics\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D56DC8A3-8751-4178-B19E-50B676E657D8}|LibraryInfrastructure\\LibraryInfrastructure.csproj|solutionrelative:libraryinfrastructure\\views\\topics\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D56DC8A3-8751-4178-B19E-50B676E657D8}|LibraryInfrastructure\\LibraryInfrastructure.csproj|c:\\users\\professional\\source\\repos\\lab2db\\libraryinfrastructure\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{D56DC8A3-8751-4178-B19E-50B676E657D8}|LibraryInfrastructure\\LibraryInfrastructure.csproj|solutionrelative:libraryinfrastructure\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Professional\\source\\repos\\Lab2DB\\LibraryDomain\\Model\\Lab2DbContext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:LibraryDomain\\Model\\Lab2DbContext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D56DC8A3-8751-4178-B19E-50B676E657D8}|LibraryInfrastructure\\LibraryInfrastructure.csproj|c:\\users\\professional\\source\\repos\\lab2db\\libraryinfrastructure\\libraryinfrastructure.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{D56DC8A3-8751-4178-B19E-50B676E657D8}|LibraryInfrastructure\\LibraryInfrastructure.csproj|solutionrelative:libraryinfrastructure\\libraryinfrastructure.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0D9AE9FA-378F-4143-9DBC-E2B955E7A8DF}|LibraryDomain\\LibraryDomain.csproj|c:\\users\\professional\\source\\repos\\lab2db\\librarydomain\\librarydomain.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{0D9AE9FA-378F-4143-9DBC-E2B955E7A8DF}|LibraryDomain\\LibraryDomain.csproj|solutionrelative:librarydomain\\librarydomain.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 10,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\Professional\\source\\repos\\Lab2DB\\LibraryInfrastructure\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "LibraryInfrastructure\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\Professional\\source\\repos\\Lab2DB\\LibraryInfrastructure\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "LibraryInfrastructure\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AQIAABkAAAAAAAAAAAAgwCkAAAAdAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-14T20:02:43.939Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Reader.cs",
+              "DocumentMoniker": "C:\\Users\\Professional\\source\\repos\\Lab2DB\\LibraryDomain\\Model\\Reader.cs",
+              "RelativeDocumentMoniker": "LibraryDomain\\Model\\Reader.cs",
+              "ToolTip": "C:\\Users\\Professional\\source\\repos\\Lab2DB\\LibraryDomain\\Model\\Reader.cs",
+              "RelativeToolTip": "LibraryDomain\\Model\\Reader.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-14T19:48:16.694Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Librarian.cs",
+              "DocumentMoniker": "C:\\Users\\Professional\\source\\repos\\Lab2DB\\LibraryDomain\\Model\\Librarian.cs",
+              "RelativeDocumentMoniker": "LibraryDomain\\Model\\Librarian.cs",
+              "ToolTip": "C:\\Users\\Professional\\source\\repos\\Lab2DB\\LibraryDomain\\Model\\Librarian.cs",
+              "RelativeToolTip": "LibraryDomain\\Model\\Librarian.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-14T19:47:52.084Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Book.cs",
+              "DocumentMoniker": "C:\\Users\\Professional\\source\\repos\\Lab2DB\\LibraryDomain\\Model\\Book.cs",
+              "RelativeDocumentMoniker": "LibraryDomain\\Model\\Book.cs",
+              "ToolTip": "C:\\Users\\Professional\\source\\repos\\Lab2DB\\LibraryDomain\\Model\\Book.cs",
+              "RelativeToolTip": "LibraryDomain\\Model\\Book.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAAjAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-14T19:45:48.882Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Topic.cs",
+              "DocumentMoniker": "C:\\Users\\Professional\\source\\repos\\Lab2DB\\LibraryDomain\\Model\\Topic.cs",
+              "RelativeDocumentMoniker": "LibraryDomain\\Model\\Topic.cs",
+              "ToolTip": "C:\\Users\\Professional\\source\\repos\\Lab2DB\\LibraryDomain\\Model\\Topic.cs",
+              "RelativeToolTip": "LibraryDomain\\Model\\Topic.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-14T19:50:05.361Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "BooksController.cs",
+              "DocumentMoniker": "C:\\Users\\Professional\\source\\repos\\Lab2DB\\LibraryInfrastructure\\Controllers\\BooksController.cs",
+              "RelativeDocumentMoniker": "LibraryInfrastructure\\Controllers\\BooksController.cs",
+              "ToolTip": "C:\\Users\\Professional\\source\\repos\\Lab2DB\\LibraryInfrastructure\\Controllers\\BooksController.cs",
+              "RelativeToolTip": "LibraryInfrastructure\\Controllers\\BooksController.cs",
+              "ViewState": "AQIAADAAAAAAAAAAAAAcwD8AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-14T19:43:19.205Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Author.cs",
+              "DocumentMoniker": "C:\\Users\\Professional\\source\\repos\\Lab2DB\\LibraryDomain\\Model\\Author.cs",
+              "RelativeDocumentMoniker": "LibraryDomain\\Model\\Author.cs",
+              "ToolTip": "C:\\Users\\Professional\\source\\repos\\Lab2DB\\LibraryDomain\\Model\\Author.cs",
+              "RelativeToolTip": "LibraryDomain\\Model\\Author.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-14T19:47:07.374Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Professional\\source\\repos\\Lab2DB\\LibraryInfrastructure\\Views\\Readers\\Index.cshtml",
+              "RelativeDocumentMoniker": "LibraryInfrastructure\\Views\\Readers\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Professional\\source\\repos\\Lab2DB\\LibraryInfrastructure\\Views\\Readers\\Index.cshtml",
+              "RelativeToolTip": "LibraryInfrastructure\\Views\\Readers\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAARAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-14T22:19:20.441Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Professional\\source\\repos\\Lab2DB\\LibraryInfrastructure\\Views\\Books\\Index.cshtml",
+              "RelativeDocumentMoniker": "LibraryInfrastructure\\Views\\Books\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Professional\\source\\repos\\Lab2DB\\LibraryInfrastructure\\Views\\Books\\Index.cshtml",
+              "RelativeToolTip": "LibraryInfrastructure\\Views\\Books\\Index.cshtml",
+              "ViewState": "AQIAABkAAAAAAAAAAAAQwGcAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-14T19:45:19.343Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Queries.cshtml",
+              "DocumentMoniker": "C:\\Users\\Professional\\source\\repos\\Lab2DB\\LibraryInfrastructure\\Views\\Books\\Queries.cshtml",
+              "RelativeDocumentMoniker": "LibraryInfrastructure\\Views\\Books\\Queries.cshtml",
+              "ToolTip": "C:\\Users\\Professional\\source\\repos\\Lab2DB\\LibraryInfrastructure\\Views\\Books\\Queries.cshtml",
+              "RelativeToolTip": "LibraryInfrastructure\\Views\\Books\\Queries.cshtml",
+              "ViewState": "AQIAADAAAAAAAAAAAAAAAFYAAABiAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-15T05:58:24.397Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{0ad07096-bba9-4900-a651-0598d26f6d24}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\Professional\\source\\repos\\Lab2DB\\LibraryInfrastructure\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "LibraryInfrastructure\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\Professional\\source\\repos\\Lab2DB\\LibraryInfrastructure\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "LibraryInfrastructure\\Controllers\\HomeController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-21T23:13:59.719Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Query1Result.cshtml",
+              "DocumentMoniker": "C:\\Users\\Professional\\source\\repos\\Lab2DB\\LibraryInfrastructure\\Views\\Books\\Query1Result.cshtml",
+              "RelativeDocumentMoniker": "LibraryInfrastructure\\Views\\Books\\Query1Result.cshtml",
+              "ToolTip": "C:\\Users\\Professional\\source\\repos\\Lab2DB\\LibraryInfrastructure\\Views\\Books\\Query1Result.cshtml",
+              "RelativeToolTip": "LibraryInfrastructure\\Views\\Books\\Query1Result.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAB8AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-15T06:15:11.412Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ReaderCardsController.cs",
+              "DocumentMoniker": "C:\\Users\\Professional\\source\\repos\\Lab2DB\\LibraryInfrastructure\\Controllers\\ReaderCardsController.cs",
+              "RelativeDocumentMoniker": "LibraryInfrastructure\\Controllers\\ReaderCardsController.cs",
+              "ToolTip": "C:\\Users\\Professional\\source\\repos\\Lab2DB\\LibraryInfrastructure\\Controllers\\ReaderCardsController.cs",
+              "RelativeToolTip": "LibraryInfrastructure\\Controllers\\ReaderCardsController.cs",
+              "ViewState": "AQIAAFcAAAAAAAAAAAAowDMAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-14T22:29:02.499Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "AuthorBook.cs",
+              "DocumentMoniker": "C:\\Users\\Professional\\source\\repos\\Lab2DB\\LibraryDomain\\Model\\AuthorBook.cs",
+              "RelativeDocumentMoniker": "LibraryDomain\\Model\\AuthorBook.cs",
+              "ToolTip": "C:\\Users\\Professional\\source\\repos\\Lab2DB\\LibraryDomain\\Model\\AuthorBook.cs",
+              "RelativeToolTip": "LibraryDomain\\Model\\AuthorBook.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-14T19:47:41.302Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "ReaderCard.cs",
+              "DocumentMoniker": "C:\\Users\\Professional\\source\\repos\\Lab2DB\\LibraryDomain\\Model\\ReaderCard.cs",
+              "RelativeDocumentMoniker": "LibraryDomain\\Model\\ReaderCard.cs",
+              "ToolTip": "C:\\Users\\Professional\\source\\repos\\Lab2DB\\LibraryDomain\\Model\\ReaderCard.cs",
+              "RelativeToolTip": "LibraryDomain\\Model\\ReaderCard.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABoAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-14T19:49:38.241Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Lab2DbContext.cs",
+              "DocumentMoniker": "C:\\Users\\Professional\\source\\repos\\Lab2DB\\LibraryInfrastructure\\Lab2DbContext.cs",
+              "RelativeDocumentMoniker": "LibraryInfrastructure\\Lab2DbContext.cs",
+              "ToolTip": "C:\\Users\\Professional\\source\\repos\\Lab2DB\\LibraryInfrastructure\\Lab2DbContext.cs",
+              "RelativeToolTip": "LibraryInfrastructure\\Lab2DbContext.cs",
+              "ViewState": "AQIAABUAAAAAAAAAAAAswCEAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-14T19:30:25.858Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "TopicBook.cs",
+              "DocumentMoniker": "C:\\Users\\Professional\\source\\repos\\Lab2DB\\LibraryDomain\\Model\\TopicBook.cs",
+              "RelativeDocumentMoniker": "LibraryDomain\\Model\\TopicBook.cs",
+              "ToolTip": "C:\\Users\\Professional\\source\\repos\\Lab2DB\\LibraryDomain\\Model\\TopicBook.cs",
+              "RelativeToolTip": "LibraryDomain\\Model\\TopicBook.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-15T06:01:33.498Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\Professional\\source\\repos\\Lab2DB\\LibraryInfrastructure\\Views\\Books\\Create.cshtml",
+              "RelativeDocumentMoniker": "LibraryInfrastructure\\Views\\Books\\Create.cshtml",
+              "ToolTip": "C:\\Users\\Professional\\source\\repos\\Lab2DB\\LibraryInfrastructure\\Views\\Books\\Create.cshtml",
+              "RelativeToolTip": "LibraryInfrastructure\\Views\\Books\\Create.cshtml",
+              "ViewState": "AQIAABsAAAAAAAAAAAAAADgAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-14T19:52:45.152Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "C:\\Users\\Professional\\source\\repos\\Lab2DB\\LibraryInfrastructure\\Views\\Books\\Delete.cshtml",
+              "RelativeDocumentMoniker": "LibraryInfrastructure\\Views\\Books\\Delete.cshtml",
+              "ToolTip": "C:\\Users\\Professional\\source\\repos\\Lab2DB\\LibraryInfrastructure\\Views\\Books\\Delete.cshtml",
+              "RelativeToolTip": "LibraryInfrastructure\\Views\\Books\\Delete.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAABAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-14T19:52:10.179Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\Users\\Professional\\source\\repos\\Lab2DB\\LibraryInfrastructure\\Views\\Books\\Details.cshtml",
+              "RelativeDocumentMoniker": "LibraryInfrastructure\\Views\\Books\\Details.cshtml",
+              "ToolTip": "C:\\Users\\Professional\\source\\repos\\Lab2DB\\LibraryInfrastructure\\Views\\Books\\Details.cshtml",
+              "RelativeToolTip": "LibraryInfrastructure\\Views\\Books\\Details.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAABJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-14T19:51:43.96Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\Professional\\source\\repos\\Lab2DB\\LibraryInfrastructure\\Views\\Books\\Edit.cshtml",
+              "RelativeDocumentMoniker": "LibraryInfrastructure\\Views\\Books\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\Professional\\source\\repos\\Lab2DB\\LibraryInfrastructure\\Views\\Books\\Edit.cshtml",
+              "RelativeToolTip": "LibraryInfrastructure\\Views\\Books\\Edit.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACgAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-14T19:51:12.412Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\Users\\Professional\\source\\repos\\Lab2DB\\LibraryInfrastructure\\Views\\ReaderCards\\Details.cshtml",
+              "RelativeDocumentMoniker": "LibraryInfrastructure\\Views\\ReaderCards\\Details.cshtml",
+              "ToolTip": "C:\\Users\\Professional\\source\\repos\\Lab2DB\\LibraryInfrastructure\\Views\\ReaderCards\\Details.cshtml",
+              "RelativeToolTip": "LibraryInfrastructure\\Views\\ReaderCards\\Details.cshtml",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAABkAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-14T22:30:19.522Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Professional\\source\\repos\\Lab2DB\\LibraryInfrastructure\\Views\\Authors\\Index.cshtml",
+              "RelativeDocumentMoniker": "LibraryInfrastructure\\Views\\Authors\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Professional\\source\\repos\\Lab2DB\\LibraryInfrastructure\\Views\\Authors\\Index.cshtml",
+              "RelativeToolTip": "LibraryInfrastructure\\Views\\Authors\\Index.cshtml",
+              "ViewState": "AQIAABgAAAAAAAAAAAAAACQAAAA9AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-14T21:33:42.758Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Professional\\source\\repos\\Lab2DB\\LibraryInfrastructure\\Program.cs",
+              "RelativeDocumentMoniker": "LibraryInfrastructure\\Program.cs",
+              "ToolTip": "C:\\Users\\Professional\\source\\repos\\Lab2DB\\LibraryInfrastructure\\Program.cs",
+              "RelativeToolTip": "LibraryInfrastructure\\Program.cs",
+              "ViewState": "AQIAAA8AAAAAAAAAAAAAABoAAAARAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-14T19:37:02.254Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\Professional\\source\\repos\\Lab2DB\\LibraryInfrastructure\\Views\\ReaderCards\\Create.cshtml",
+              "RelativeDocumentMoniker": "LibraryInfrastructure\\Views\\ReaderCards\\Create.cshtml",
+              "ToolTip": "C:\\Users\\Professional\\source\\repos\\Lab2DB\\LibraryInfrastructure\\Views\\ReaderCards\\Create.cshtml",
+              "RelativeToolTip": "LibraryInfrastructure\\Views\\ReaderCards\\Create.cshtml",
+              "ViewState": "AQIAACMAAAAAAAAAAAAAAEYAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-14T22:31:33.476Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Professional\\source\\repos\\Lab2DB\\LibraryInfrastructure\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "LibraryInfrastructure\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Professional\\source\\repos\\Lab2DB\\LibraryInfrastructure\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "LibraryInfrastructure\\Views\\Home\\Index.cshtml",
+              "ViewState": "AQIAADkAAAAAAAAAAAAAAFYAAAA+AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-14T22:44:47.701Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Professional\\source\\repos\\Lab2DB\\LibraryInfrastructure\\Views\\ReaderCards\\Index.cshtml",
+              "RelativeDocumentMoniker": "LibraryInfrastructure\\Views\\ReaderCards\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Professional\\source\\repos\\Lab2DB\\LibraryInfrastructure\\Views\\ReaderCards\\Index.cshtml",
+              "RelativeToolTip": "LibraryInfrastructure\\Views\\ReaderCards\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAAQAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-14T22:29:11.499Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "ReadersController.cs",
+              "DocumentMoniker": "C:\\Users\\Professional\\source\\repos\\Lab2DB\\LibraryInfrastructure\\Controllers\\ReadersController.cs",
+              "RelativeDocumentMoniker": "LibraryInfrastructure\\Controllers\\ReadersController.cs",
+              "ToolTip": "C:\\Users\\Professional\\source\\repos\\Lab2DB\\LibraryInfrastructure\\Controllers\\ReadersController.cs",
+              "RelativeToolTip": "LibraryInfrastructure\\Controllers\\ReadersController.cs",
+              "ViewState": "AQIAABAAAAAAAAAAAAAswCIAAAAtAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-14T22:19:06.506Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\Users\\Professional\\source\\repos\\Lab2DB\\LibraryInfrastructure\\Views\\Readers\\Details.cshtml",
+              "RelativeDocumentMoniker": "LibraryInfrastructure\\Views\\Readers\\Details.cshtml",
+              "ToolTip": "C:\\Users\\Professional\\source\\repos\\Lab2DB\\LibraryInfrastructure\\Views\\Readers\\Details.cshtml",
+              "RelativeToolTip": "LibraryInfrastructure\\Views\\Readers\\Details.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAADcAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-14T22:20:38.959Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "C:\\Users\\Professional\\source\\repos\\Lab2DB\\LibraryInfrastructure\\Views\\ReaderCards\\Delete.cshtml",
+              "RelativeDocumentMoniker": "LibraryInfrastructure\\Views\\ReaderCards\\Delete.cshtml",
+              "ToolTip": "C:\\Users\\Professional\\source\\repos\\Lab2DB\\LibraryInfrastructure\\Views\\ReaderCards\\Delete.cshtml",
+              "RelativeToolTip": "LibraryInfrastructure\\Views\\ReaderCards\\Delete.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABcAAAAfAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-14T22:30:49.582Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\Users\\Professional\\source\\repos\\Lab2DB\\LibraryInfrastructure\\Views\\Librarians\\Details.cshtml",
+              "RelativeDocumentMoniker": "LibraryInfrastructure\\Views\\Librarians\\Details.cshtml",
+              "ToolTip": "C:\\Users\\Professional\\source\\repos\\Lab2DB\\LibraryInfrastructure\\Views\\Librarians\\Details.cshtml",
+              "RelativeToolTip": "LibraryInfrastructure\\Views\\Librarians\\Details.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABkAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-14T22:24:46.681Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "C:\\Users\\Professional\\source\\repos\\Lab2DB\\LibraryInfrastructure\\Views\\Librarians\\Delete.cshtml",
+              "RelativeDocumentMoniker": "LibraryInfrastructure\\Views\\Librarians\\Delete.cshtml",
+              "ToolTip": "C:\\Users\\Professional\\source\\repos\\Lab2DB\\LibraryInfrastructure\\Views\\Librarians\\Delete.cshtml",
+              "RelativeToolTip": "LibraryInfrastructure\\Views\\Librarians\\Delete.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-14T22:25:09.343Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\Professional\\source\\repos\\Lab2DB\\LibraryInfrastructure\\Views\\Librarians\\Create.cshtml",
+              "RelativeDocumentMoniker": "LibraryInfrastructure\\Views\\Librarians\\Create.cshtml",
+              "ToolTip": "C:\\Users\\Professional\\source\\repos\\Lab2DB\\LibraryInfrastructure\\Views\\Librarians\\Create.cshtml",
+              "RelativeToolTip": "LibraryInfrastructure\\Views\\Librarians\\Create.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABsAAAAkAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-14T22:25:52.318Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\Professional\\source\\repos\\Lab2DB\\LibraryInfrastructure\\Views\\ReaderCards\\Edit.cshtml",
+              "RelativeDocumentMoniker": "LibraryInfrastructure\\Views\\ReaderCards\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\Professional\\source\\repos\\Lab2DB\\LibraryInfrastructure\\Views\\ReaderCards\\Edit.cshtml",
+              "RelativeToolTip": "LibraryInfrastructure\\Views\\ReaderCards\\Edit.cshtml",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAAACMAAABOAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-14T22:29:59.27Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\Professional\\source\\repos\\Lab2DB\\LibraryInfrastructure\\Views\\Librarians\\Edit.cshtml",
+              "RelativeDocumentMoniker": "LibraryInfrastructure\\Views\\Librarians\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\Professional\\source\\repos\\Lab2DB\\LibraryInfrastructure\\Views\\Librarians\\Edit.cshtml",
+              "RelativeToolTip": "LibraryInfrastructure\\Views\\Librarians\\Edit.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACIAAAAGAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-14T22:24:24.743Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Professional\\source\\repos\\Lab2DB\\LibraryInfrastructure\\Views\\Librarians\\Index.cshtml",
+              "RelativeDocumentMoniker": "LibraryInfrastructure\\Views\\Librarians\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Professional\\source\\repos\\Lab2DB\\LibraryInfrastructure\\Views\\Librarians\\Index.cshtml",
+              "RelativeToolTip": "LibraryInfrastructure\\Views\\Librarians\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACkAAABHAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-14T22:23:43.958Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "LibrariansController.cs",
+              "DocumentMoniker": "C:\\Users\\Professional\\source\\repos\\Lab2DB\\LibraryInfrastructure\\Controllers\\LibrariansController.cs",
+              "RelativeDocumentMoniker": "LibraryInfrastructure\\Controllers\\LibrariansController.cs",
+              "ToolTip": "C:\\Users\\Professional\\source\\repos\\Lab2DB\\LibraryInfrastructure\\Controllers\\LibrariansController.cs",
+              "RelativeToolTip": "LibraryInfrastructure\\Controllers\\LibrariansController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-14T22:23:38.75Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\Professional\\source\\repos\\Lab2DB\\LibraryInfrastructure\\Views\\Readers\\Create.cshtml",
+              "RelativeDocumentMoniker": "LibraryInfrastructure\\Views\\Readers\\Create.cshtml",
+              "ToolTip": "C:\\Users\\Professional\\source\\repos\\Lab2DB\\LibraryInfrastructure\\Views\\Readers\\Create.cshtml",
+              "RelativeToolTip": "LibraryInfrastructure\\Views\\Readers\\Create.cshtml",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAACsAAAAGAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-14T22:21:41.741Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "C:\\Users\\Professional\\source\\repos\\Lab2DB\\LibraryInfrastructure\\Views\\Readers\\Delete.cshtml",
+              "RelativeDocumentMoniker": "LibraryInfrastructure\\Views\\Readers\\Delete.cshtml",
+              "ToolTip": "C:\\Users\\Professional\\source\\repos\\Lab2DB\\LibraryInfrastructure\\Views\\Readers\\Delete.cshtml",
+              "RelativeToolTip": "LibraryInfrastructure\\Views\\Readers\\Delete.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-14T22:21:04.533Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\Professional\\source\\repos\\Lab2DB\\LibraryInfrastructure\\Views\\Readers\\Edit.cshtml",
+              "RelativeDocumentMoniker": "LibraryInfrastructure\\Views\\Readers\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\Professional\\source\\repos\\Lab2DB\\LibraryInfrastructure\\Views\\Readers\\Edit.cshtml",
+              "RelativeToolTip": "LibraryInfrastructure\\Views\\Readers\\Edit.cshtml",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAADAAAAAGAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-14T22:20:10.783Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "C:\\Users\\Professional\\source\\repos\\Lab2DB\\LibraryInfrastructure\\Views\\Authors\\Delete.cshtml",
+              "RelativeDocumentMoniker": "LibraryInfrastructure\\Views\\Authors\\Delete.cshtml",
+              "ToolTip": "C:\\Users\\Professional\\source\\repos\\Lab2DB\\LibraryInfrastructure\\Views\\Authors\\Delete.cshtml",
+              "RelativeToolTip": "LibraryInfrastructure\\Views\\Authors\\Delete.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-14T21:35:21.877Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\Professional\\source\\repos\\Lab2DB\\LibraryInfrastructure\\Views\\Authors\\Create.cshtml",
+              "RelativeDocumentMoniker": "LibraryInfrastructure\\Views\\Authors\\Create.cshtml",
+              "ToolTip": "C:\\Users\\Professional\\source\\repos\\Lab2DB\\LibraryInfrastructure\\Views\\Authors\\Create.cshtml",
+              "RelativeToolTip": "LibraryInfrastructure\\Views\\Authors\\Create.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAARAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-14T21:36:00.059Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 45,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "C:\\Users\\Professional\\source\\repos\\Lab2DB\\LibraryInfrastructure\\Views\\Topics\\Delete.cshtml",
+              "RelativeDocumentMoniker": "LibraryInfrastructure\\Views\\Topics\\Delete.cshtml",
+              "ToolTip": "C:\\Users\\Professional\\source\\repos\\Lab2DB\\LibraryInfrastructure\\Views\\Topics\\Delete.cshtml",
+              "RelativeToolTip": "LibraryInfrastructure\\Views\\Topics\\Delete.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABgAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-14T20:09:18.566Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\Users\\Professional\\source\\repos\\Lab2DB\\LibraryInfrastructure\\Views\\Authors\\Details.cshtml",
+              "RelativeDocumentMoniker": "LibraryInfrastructure\\Views\\Authors\\Details.cshtml",
+              "ToolTip": "C:\\Users\\Professional\\source\\repos\\Lab2DB\\LibraryInfrastructure\\Views\\Authors\\Details.cshtml",
+              "RelativeToolTip": "LibraryInfrastructure\\Views\\Authors\\Details.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-14T21:34:48.947Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 44,
+              "Title": "AuthorsController.cs",
+              "DocumentMoniker": "C:\\Users\\Professional\\source\\repos\\Lab2DB\\LibraryInfrastructure\\Controllers\\AuthorsController.cs",
+              "RelativeDocumentMoniker": "LibraryInfrastructure\\Controllers\\AuthorsController.cs",
+              "ToolTip": "C:\\Users\\Professional\\source\\repos\\Lab2DB\\LibraryInfrastructure\\Controllers\\AuthorsController.cs",
+              "RelativeToolTip": "LibraryInfrastructure\\Controllers\\AuthorsController.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-14T21:31:21.072Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 43,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\Professional\\source\\repos\\Lab2DB\\LibraryInfrastructure\\Views\\Authors\\Edit.cshtml",
+              "RelativeDocumentMoniker": "LibraryInfrastructure\\Views\\Authors\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\Professional\\source\\repos\\Lab2DB\\LibraryInfrastructure\\Views\\Authors\\Edit.cshtml",
+              "RelativeToolTip": "LibraryInfrastructure\\Views\\Authors\\Edit.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACMAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-14T21:34:22.565Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 46,
+              "Title": "TopicsController.cs",
+              "DocumentMoniker": "C:\\Users\\Professional\\source\\repos\\Lab2DB\\LibraryInfrastructure\\Controllers\\TopicsController.cs",
+              "RelativeDocumentMoniker": "LibraryInfrastructure\\Controllers\\TopicsController.cs",
+              "ToolTip": "C:\\Users\\Professional\\source\\repos\\Lab2DB\\LibraryInfrastructure\\Controllers\\TopicsController.cs",
+              "RelativeToolTip": "LibraryInfrastructure\\Controllers\\TopicsController.cs",
+              "ViewState": "AQIAAHIAAAAAAAAAAAAmwJ0AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-14T20:06:15.948Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 50,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Professional\\source\\repos\\Lab2DB\\LibraryInfrastructure\\Views\\Topics\\Index.cshtml",
+              "RelativeDocumentMoniker": "LibraryInfrastructure\\Views\\Topics\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Professional\\source\\repos\\Lab2DB\\LibraryInfrastructure\\Views\\Topics\\Index.cshtml",
+              "RelativeToolTip": "LibraryInfrastructure\\Views\\Topics\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAAAeAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-14T20:07:34.324Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 49,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\Professional\\source\\repos\\Lab2DB\\LibraryInfrastructure\\Views\\Topics\\Edit.cshtml",
+              "RelativeDocumentMoniker": "LibraryInfrastructure\\Views\\Topics\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\Professional\\source\\repos\\Lab2DB\\LibraryInfrastructure\\Views\\Topics\\Edit.cshtml",
+              "RelativeToolTip": "LibraryInfrastructure\\Views\\Topics\\Edit.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAA0AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-14T20:08:31.61Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 48,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\Users\\Professional\\source\\repos\\Lab2DB\\LibraryInfrastructure\\Views\\Topics\\Details.cshtml",
+              "RelativeDocumentMoniker": "LibraryInfrastructure\\Views\\Topics\\Details.cshtml",
+              "ToolTip": "C:\\Users\\Professional\\source\\repos\\Lab2DB\\LibraryInfrastructure\\Views\\Topics\\Details.cshtml",
+              "RelativeToolTip": "LibraryInfrastructure\\Views\\Topics\\Details.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAAAGAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-14T20:08:52.718Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 47,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\Professional\\source\\repos\\Lab2DB\\LibraryInfrastructure\\Views\\Topics\\Create.cshtml",
+              "RelativeDocumentMoniker": "LibraryInfrastructure\\Views\\Topics\\Create.cshtml",
+              "ToolTip": "C:\\Users\\Professional\\source\\repos\\Lab2DB\\LibraryInfrastructure\\Views\\Topics\\Create.cshtml",
+              "RelativeToolTip": "LibraryInfrastructure\\Views\\Topics\\Create.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAkAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-14T20:10:02.963Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 51,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\Professional\\source\\repos\\Lab2DB\\LibraryInfrastructure\\appsettings.json",
+              "RelativeDocumentMoniker": "LibraryInfrastructure\\appsettings.json",
+              "ToolTip": "C:\\Users\\Professional\\source\\repos\\Lab2DB\\LibraryInfrastructure\\appsettings.json",
+              "RelativeToolTip": "LibraryInfrastructure\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAOAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-05-14T19:36:21.358Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 52,
+              "Title": "Lab2DbContext.cs",
+              "DocumentMoniker": "C:\\Users\\Professional\\source\\repos\\Lab2DB\\LibraryDomain\\Model\\Lab2DbContext.cs",
+              "RelativeDocumentMoniker": "LibraryDomain\\Model\\Lab2DbContext.cs",
+              "ToolTip": "C:\\Users\\Professional\\source\\repos\\Lab2DB\\LibraryDomain\\Model\\Lab2DbContext.cs",
+              "RelativeToolTip": "LibraryDomain\\Model\\Lab2DbContext.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-14T19:29:19.563Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 53,
+              "Title": "LibraryInfrastructure.csproj",
+              "DocumentMoniker": "C:\\Users\\Professional\\source\\repos\\Lab2DB\\LibraryInfrastructure\\LibraryInfrastructure.csproj",
+              "RelativeDocumentMoniker": "LibraryInfrastructure\\LibraryInfrastructure.csproj",
+              "ToolTip": "C:\\Users\\Professional\\source\\repos\\Lab2DB\\LibraryInfrastructure\\LibraryInfrastructure.csproj",
+              "RelativeToolTip": "LibraryInfrastructure\\LibraryInfrastructure.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-05-14T19:23:08.256Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 54,
+              "Title": "LibraryDomain.csproj",
+              "DocumentMoniker": "C:\\Users\\Professional\\source\\repos\\Lab2DB\\LibraryDomain\\LibraryDomain.csproj",
+              "RelativeDocumentMoniker": "LibraryDomain\\LibraryDomain.csproj",
+              "ToolTip": "C:\\Users\\Professional\\source\\repos\\Lab2DB\\LibraryDomain\\LibraryDomain.csproj",
+              "RelativeToolTip": "LibraryDomain\\LibraryDomain.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-05-14T19:23:04.727Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+﻿@model LibraryDomain.Model.Book
+
+@{
+    ViewData["Title"] = "Details";
+}
+
+<h1>Деталі</h1>
+
+<div>
+    <hr />
+    <dl class="row">
+        <dt class="col-sm-2">@Html.DisplayNameFor(model => model.Id)</dt>
+        <dd class="col-sm-10">@Html.DisplayFor(model => model.Id)</dd>
+
+        <dt class="col-sm-2">@Html.DisplayNameFor(model => model.Title)</dt>
+        <dd class="col-sm-10">@Html.DisplayFor(model => model.Title)</dd>
+
+        <dt class="col-sm-2">@Html.DisplayNameFor(model => model.Annotation)</dt>
+        <dd class="col-sm-10">@Html.DisplayFor(model => model.Annotation)</dd>
+
+        <dt class="col-sm-2">@Html.DisplayNameFor(model => model.YearOfPublish)</dt>
+        <dd class="col-sm-10">@Html.DisplayFor(model => model.YearOfPublish)</dd>
+
+        <dt class="col-sm-2">@Html.DisplayNameFor(model => model.Amount)</dt>
+        <dd class="col-sm-10">@Html.DisplayFor(model => model.Amount)</dd>
+
+        <dt class="col-sm-2">Жанри</dt>
+        <dd class="col-sm-10">
+            @foreach (var topicBook in Model.TopicBooks)
+            {
+                @topicBook.Topic.Name <br />
+            }
+        </dd>
+        <dt class="col-sm-2">Автори</dt>
+        <dd class="col-sm-10">
+            @foreach (var bookAuthor in Model.AuthorBooks)
+            {
+                @bookAuthor.Author.LastName @bookAuthor.Author.FirstName @bookAuthor.Author.FatherName<br />
+            }
+        </dd>
+    </dl>
+</div>
+<div>
+    <a asp-action="Edit" asp-route-id="@Model?.Id">Редагувати</a> |
+    <a asp-action="Index">Назад</a>
+</div>
