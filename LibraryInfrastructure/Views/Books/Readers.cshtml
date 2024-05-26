@@ -1,0 +1,55 @@
+﻿@model IEnumerable<LibraryDomain.Model.Reader>
+@{
+    ViewData["Title"] = "Readers";
+    var selectedReader = ViewBag.SelectedReader as LibraryDomain.Model.Reader;
+}
+
+
+@if (selectedReader != null)
+{
+    <div>
+        <h3>Обраний читач:</h3>
+        <p><strong>Ім'я:</strong> @selectedReader.FirstName</p>
+        <p><strong>Прізвище:</strong> @selectedReader.LastName</p>
+        <h5>Книги, орендовані обраним читачем:</h5>
+        <ul>
+            @foreach (var card in selectedReader.ReaderCards)
+            {
+                <li>@card.Book.Title</li>
+            }
+        </ul>
+    </div>
+}
+
+<table class="table table-hover">
+    <thead>
+        <tr>
+            <th>Ім'я</th>
+            <th>Прізвище</th>
+            <th>Факультет</th>
+            <th>Відділ</th>
+            <th>Номер телефону</th>
+            <th>Книги</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var reader in Model)
+        {
+            <tr>
+                <td>@reader.FirstName</td>
+                <td>@reader.LastName</td>
+                <td>@reader.Faculty</td>
+                <td>@reader.Department</td>
+                <td>@reader.PhoneNumber</td>
+                <td>
+                    <ul>
+                        @foreach (var card in reader.ReaderCards)
+                        {
+                            <li>@card.Book.Title</li>
+                        }
+                    </ul>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

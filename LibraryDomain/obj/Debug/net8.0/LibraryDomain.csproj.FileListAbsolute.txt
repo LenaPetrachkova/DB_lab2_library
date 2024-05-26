@@ -313,3 +313,4 @@ C:\Users\Professional\source\repos\Lab2DB\LibraryDomain\obj\Debug\net8.0\refint\
 C:\Users\Professional\source\repos\Lab2DB\LibraryDomain\obj\Debug\net8.0\LibraryDomain.pdb
 C:\Users\Professional\source\repos\Lab2DB\LibraryDomain\obj\Debug\net8.0\LibraryDomain.genruntimeconfig.cache
 C:\Users\Professional\source\repos\Lab2DB\LibraryDomain\obj\Debug\net8.0\ref\LibraryDomain.dll
+C:\Users\Professional\source\repos\Lab2DB\LibraryDomain\obj\Debug\net8.0\LibraryDomain.sourcelink.json

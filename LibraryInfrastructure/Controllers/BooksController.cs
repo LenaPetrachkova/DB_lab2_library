@@ -72,23 +72,51 @@ namespace LibraryInfrastructure.Controllers
         }
 
         // GET: Books/Queries
-        public IActionResult Queries()
+        public async Task<IActionResult> Queries()
         {
+            var authors = await _context.Authors
+                .Select(a => new SelectListItem
+                {
+                    Value = a.Id.ToString(),
+                    Text = $"{a.FirstName} {a.LastName} {a.FatherName}"
+                })
+                .ToListAsync();
+
+            var topics = await _context.Topics
+                .Select(t => new SelectListItem
+                {
+                    Value = t.Id.ToString(),
+                    Text = t.Name
+                })
+                .ToListAsync();
+
+            var readers = await _context.Readers
+                .Select(r => new SelectListItem
+                {
+                    Value = r.Id.ToString(),
+                    Text = $"{r.FirstName} {r.LastName}"
+                })
+                .ToListAsync();
+
+            ViewBag.Authors = authors;
+            ViewBag.Topics = topics;
+            ViewBag.Readers = readers;
+
             return View();
         }
 
         // книги за автором
-        public async Task<IActionResult> BooksByAuthor(string authorName)
+        public async Task<IActionResult> BooksByAuthor(int authorId)
         {
             var sql = @"
                 SELECT b.*
                 FROM Book b
                 JOIN AuthorBook ab ON b.Id = ab.BookId
                 JOIN Author a ON ab.AuthorId = a.Id
-                WHERE (a.FirstName + ' ' + a.LastName + ' ' + a.FatherName) LIKE '%' + @author + '%'";
+                WHERE a.Id = @AuthorId";
 
             var books = await _context.Books
-                                      .FromSqlRaw(sql, new SqlParameter("@author", authorName ?? (object)DBNull.Value))
+                                      .FromSqlRaw(sql, new SqlParameter("@AuthorId", authorId))
                                       .ToListAsync();
 
             foreach (var book in books)
@@ -101,17 +129,17 @@ namespace LibraryInfrastructure.Controllers
         }
 
         // книги, що належать певній темі
-        public async Task<IActionResult> BooksByTopic(string topicName)
+        public async Task<IActionResult> BooksByTopic(int topicId)
         {
             var sql = @"
                 SELECT b.*
                 FROM Book b
                 JOIN TopicBook tb ON b.Id = tb.BookId
                 JOIN Topic t ON tb.TopicId = t.Id
-                WHERE t.Name LIKE '%' + @topic + '%'";
+                WHERE t.Id = @TopicId";
 
             var books = await _context.Books
-                                      .FromSqlRaw(sql, new SqlParameter("@topic", topicName ?? (object)DBNull.Value))
+                                      .FromSqlRaw(sql, new SqlParameter("@TopicId", topicId))
                                       .ToListAsync();
 
             foreach (var book in books)
@@ -124,17 +152,17 @@ namespace LibraryInfrastructure.Controllers
         }
 
         // книги взяті читачем
-        public async Task<IActionResult> BooksByReader(string readerName)
+        public async Task<IActionResult> BooksByReader(int readerId)
         {
             var sql = @"
                 SELECT b.*
                 FROM Book b
                 JOIN ReaderCard rc ON b.Id = rc.BookId
                 JOIN Reader r ON rc.ReaderId = r.Id
-                WHERE (r.FirstName + ' ' + r.LastName) LIKE '%' + @reader + '%'";
+                WHERE r.Id = @ReaderId";
 
             var books = await _context.Books
-                                      .FromSqlRaw(sql, new SqlParameter("@reader", readerName ?? (object)DBNull.Value))
+                                      .FromSqlRaw(sql, new SqlParameter("@ReaderId", readerId))
                                       .ToListAsync();
 
             foreach (var book in books)
@@ -152,10 +180,10 @@ namespace LibraryInfrastructure.Controllers
             var sql = @"
                 SELECT b.*
                 FROM Book b
-                WHERE b.YearOfPublish = @year";
+                WHERE b.YearOfPublish = @Year";
 
             var books = await _context.Books
-                                      .FromSqlRaw(sql, new SqlParameter("@year", year))
+                                      .FromSqlRaw(sql, new SqlParameter("@Year", year))
                                       .ToListAsync();
 
             foreach (var book in books)
@@ -173,10 +201,10 @@ namespace LibraryInfrastructure.Controllers
             var sql = @"
                 SELECT b.*
                 FROM Book b
-                WHERE b.Amount = @amount";
+                WHERE b.Amount = @Amount";
 
             var books = await _context.Books
-                                      .FromSqlRaw(sql, new SqlParameter("@amount", amount))
+                                      .FromSqlRaw(sql, new SqlParameter("@Amount", amount))
                                       .ToListAsync();
 
             foreach (var book in books)
@@ -188,78 +216,120 @@ namespace LibraryInfrastructure.Controllers
             return View("Index", books);
         }
 
-        // Книги, написані певним автором і належать певній темі
-        public async Task<IActionResult> BooksByAuthorAndTopic(string authorName, string topicName)
+        // Знайти читачів, які орендували книги, що і читач N (хоча б одну)
+        public async Task<IActionResult> UsersWhoRentedAnyBook(int readerId)
         {
             var sql = @"
-                SELECT b.*
-                FROM Book b
-                JOIN AuthorBook ab ON b.Id = ab.BookId
-                JOIN Author a ON ab.AuthorId = a.Id
-                JOIN TopicBook tb ON b.Id = tb.BookId
-                JOIN Topic t ON tb.TopicId = t.Id
-                WHERE (a.FirstName + ' ' + a.LastName + ' ' + a.FatherName) LIKE '%' + @author + '%'
-                  AND t.Name LIKE '%' + @topic + '%'";
+        SELECT DISTINCT r.*
+        FROM Reader r
+        JOIN ReaderCard rc ON r.Id = rc.ReaderId
+        WHERE rc.BookId IN (
+            SELECT rc2.BookId
+            FROM ReaderCard rc2
+            WHERE rc2.ReaderId = @readerId
+        ) AND r.Id != @readerId";
 
-            var books = await _context.Books
-                                      .FromSqlRaw(sql, new SqlParameter("@author", authorName ?? (object)DBNull.Value),
-                                                       new SqlParameter("@topic", topicName ?? (object)DBNull.Value))
-                                      .ToListAsync();
+            var readers = await _context.Readers
+                .FromSqlRaw(sql, new SqlParameter("@readerId", readerId))
+                .ToListAsync();
 
-            foreach (var book in books)
+            foreach (var reader in readers)
             {
-                _context.Entry(book).Collection(b => b.TopicBooks).Query().Include(tb => tb.Topic).Load();
-                _context.Entry(book).Collection(b => b.AuthorBooks).Query().Include(ba => ba.Author).Load();
+                _context.Entry(reader).Collection(r => r.ReaderCards).Query().Include(rc => rc.Book).Load();
             }
 
-            return View("Index", books);
+            var selectedReader = await _context.Readers
+                .Include(r => r.ReaderCards)
+                .ThenInclude(rc => rc.Book)
+                .FirstOrDefaultAsync(r => r.Id == readerId);
+
+            ViewBag.SelectedReader = selectedReader;
+
+            return View("Readers", readers);
         }
 
-        // Книги, видані після певного року і доступні у більшій кількості ніж задана
-        public async Task<IActionResult> BooksByYearAndAmount(int year, int amount)
+        // Знайти читачів, які орендували всі книги, що і читач N
+        public async Task<IActionResult> UsersWhoRentedAllBooks(int readerId)
         {
             var sql = @"
-                SELECT b.*
-                FROM Book b
-                WHERE b.YearOfPublish > @year
-                  AND b.Amount > @amount";
+        SELECT r.*
+        FROM Reader r
+        WHERE r.Id != @readerId
+          AND NOT EXISTS (
+              SELECT 1
+              FROM ReaderCard rc2
+              WHERE rc2.ReaderId = @readerId
+                AND rc2.BookId NOT IN (
+                    SELECT rc.BookId
+                    FROM ReaderCard rc
+                    WHERE rc.ReaderId = r.Id
+                )
+          )";
 
-            var books = await _context.Books
-                                      .FromSqlRaw(sql, new SqlParameter("@year", year),
-                                                       new SqlParameter("@amount", amount))
-                                      .ToListAsync();
+            var readers = await _context.Readers
+                .FromSqlRaw(sql, new SqlParameter("@readerId", readerId))
+                .ToListAsync();
 
-            foreach (var book in books)
+            foreach (var reader in readers)
             {
-                _context.Entry(book).Collection(b => b.TopicBooks).Query().Include(tb => tb.Topic).Load();
-                _context.Entry(book).Collection(b => b.AuthorBooks).Query().Include(ba => ba.Author).Load();
+                _context.Entry(reader).Collection(r => r.ReaderCards).Query().Include(rc => rc.Book).Load();
             }
 
-            return View("Index", books);
+            var selectedReader = await _context.Readers
+                .Include(r => r.ReaderCards)
+                .ThenInclude(rc => rc.Book)
+                .FirstOrDefaultAsync(r => r.Id == readerId);
+
+            ViewBag.SelectedReader = selectedReader;
+
+            return View("Readers", readers);
         }
 
-        // Книги, видані за останні N років
-        public async Task<IActionResult> BooksPublishedInLastYears(int years)
+        // Знайти читачів, які орендували всі ті і тільки ті книги, що і читач N
+        public async Task<IActionResult> UsersWhoRentedOnlySameBooks(int readerId)
         {
-            var currentYear = DateTime.Now.Year;
-            var targetYear = currentYear - years;
-
             var sql = @"
-                SELECT b.*
-                FROM Book b
-                WHERE b.YearOfPublish >= @targetYear";
+        SELECT r.*
+        FROM Reader r
+        WHERE r.Id != @readerId
+          AND NOT EXISTS (
+              SELECT 1
+              FROM ReaderCard rc2
+              WHERE rc2.ReaderId = @readerId
+                AND rc2.BookId NOT IN (
+                    SELECT rc.BookId
+                    FROM ReaderCard rc
+                    WHERE rc.ReaderId = r.Id
+                )
+          )
+          AND NOT EXISTS (
+              SELECT 1
+              FROM ReaderCard rc
+              WHERE rc.ReaderId = r.Id
+                AND rc.BookId NOT IN (
+                    SELECT rc2.BookId
+                    FROM ReaderCard rc2
+                    WHERE rc2.ReaderId = @readerId
+                )
+          )";
 
-            var books = await _context.Books
-                                      .FromSqlRaw(sql, new SqlParameter("@targetYear", targetYear))
-                                      .ToListAsync();
+            var readers = await _context.Readers
+                .FromSqlRaw(sql, new SqlParameter("@readerId", readerId))
+                .ToListAsync();
 
-            foreach (var book in books)
+            foreach (var reader in readers)
             {
-                _context.Entry(book).Collection(b => b.TopicBooks).Query().Include(tb => tb.Topic).Load();
-                _context.Entry(book).Collection(b => b.AuthorBooks).Query().Include(ba => ba.Author).Load();
+                _context.Entry(reader).Collection(r => r.ReaderCards).Query().Include(rc => rc.Book).Load();
             }
 
-            return View("Index", books);
+            var selectedReader = await _context.Readers
+                .Include(r => r.ReaderCards)
+                .ThenInclude(rc => rc.Book)
+                .FirstOrDefaultAsync(r => r.Id == readerId);
+
+            ViewBag.SelectedReader = selectedReader;
+
+            return View("Readers", readers);
         }
 
         // GET: Books/Details/5

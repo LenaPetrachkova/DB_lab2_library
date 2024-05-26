@@ -1,17 +1,22 @@
 ﻿@model IEnumerable<LibraryDomain.Model.Book>
 
 @{
-    ViewData["Title"] = "Queries";
+    ViewData["Title"] = "Запити до бази даних";
 }
 
-<h1>Запити</h1>
+<h2>Запити до бази даних</h2>
 
 <div class="container">
     <form method="get" asp-action="BooksByAuthor">
         <h4>Книги за автором</h4>
         <div class="form-group">
-            <label for="authorName">Ім'я автора:</label>
-            <input type="text" id="authorName" name="authorName" class="form-control" />
+            <label for="authorId">Автор:</label>
+            <select id="authorId" name="authorId" class="form-control">
+                @foreach (var author in ViewBag.Authors)
+                {
+                    <option value="@author.Value">@author.Text</option>
+                }
+            </select>
         </div>
         <button type="submit" class="btn btn-primary" style="margin-top:20px; margin-bottom:30px;">Виконати</button>
     </form>
@@ -19,8 +24,13 @@
     <form method="get" asp-action="BooksByTopic">
         <h4>Книги за темою</h4>
         <div class="form-group">
-            <label for="topicName">Жанр:</label>
-            <input type="text" id="topicName" name="topicName" class="form-control" />
+            <label for="topicId">Тема:</label>
+            <select id="topicId" name="topicId" class="form-control">
+                @foreach (var topic in ViewBag.Topics)
+                {
+                    <option value="@topic.Value">@topic.Text</option>
+                }
+            </select>
         </div>
         <button type="submit" class="btn btn-primary" style="margin-top:20px; margin-bottom:30px;">Виконати</button>
     </form>
@@ -28,8 +38,13 @@
     <form method="get" asp-action="BooksByReader">
         <h4>Книги взяті читачем</h4>
         <div class="form-group">
-            <label for="readerName">Ім'я читача:</label>
-            <input type="text" id="readerName" name="readerName" class="form-control" />
+            <label for="readerId">Читач:</label>
+            <select id="readerId" name="readerId" class="form-control">
+                @foreach (var reader in ViewBag.Readers)
+                {
+                    <option value="@reader.Value">@reader.Text</option>
+                }
+            </select>
         </div>
         <button type="submit" class="btn btn-primary" style="margin-top:20px; margin-bottom:30px;">Виконати</button>
     </form>
@@ -55,12 +70,22 @@
     <form method="get" asp-action="BooksByAuthorAndTopic">
         <h4>Книги за автором та темою</h4>
         <div class="form-group">
-            <label for="authorName">Ім'я автора:</label>
-            <input type="text" id="authorName" name="authorName" class="form-control" />
+            <label for="authorId">Автор:</label>
+            <select id="authorId" name="authorId" class="form-control">
+                @foreach (var author in ViewBag.Authors)
+                {
+                    <option value="@author.Value">@author.Text</option>
+                }
+            </select>
         </div>
         <div class="form-group">
-            <label for="topicName">Жанр:</label>
-            <input type="text" id="topicName" name="topicName" class="form-control" />
+            <label for="topicId">Тема:</label>
+            <select id="topicId" name="topicId" class="form-control">
+                @foreach (var topic in ViewBag.Topics)
+                {
+                    <option value="@topic.Value">@topic.Text</option>
+                }
+            </select>
         </div>
         <button type="submit" class="btn btn-primary" style="margin-top:20px; margin-bottom:30px;">Виконати</button>
     </form>
@@ -83,6 +108,48 @@
         <div class="form-group">
             <label for="years">N років:</label>
             <input type="number" id="years" name="years" class="form-control" />
+        </div>
+        <button type="submit" class="btn btn-primary" style="margin-top:20px; margin-bottom:30px;">Виконати</button>
+    </form>
+
+    <form method="get" asp-action="UsersWhoRentedAnyBook">
+        <h4>Знайти читачів, які орендували книги, що і читач N (хоча б одну)</h4>
+        <div class="form-group">
+            <label for="readerId">Читач:</label>
+            <select id="readerId" name="readerId" class="form-control">
+                @foreach (var reader in ViewBag.Readers)
+                {
+                    <option value="@reader.Value">@reader.Text</option>
+                }
+            </select>
+        </div>
+        <button type="submit" class="btn btn-primary" style="margin-top:20px; margin-bottom:30px;">Виконати</button>
+    </form>
+
+    <form method="get" asp-action="UsersWhoRentedAllBooks">
+        <h4>Знайти читачів, які орендували всі книги, що і читач N</h4>
+        <div class="form-group">
+            <label for="readerId">Читач:</label>
+            <select id="readerId" name="readerId" class="form-control">
+                @foreach (var reader in ViewBag.Readers)
+                {
+                    <option value="@reader.Value">@reader.Text</option>
+                }
+            </select>
+        </div>
+        <button type="submit" class="btn btn-primary" style="margin-top:20px; margin-bottom:30px;">Виконати</button>
+    </form>
+
+    <form method="get" asp-action="UsersWhoRentedOnlySameBooks">
+        <h4>Знайти читачів, які орендували всі ті і тільки ті книги, що і читач N</h4>
+        <div class="form-group">
+            <label for="readerId">Читач:</label>
+            <select id="readerId" name="readerId" class="form-control">
+                @foreach (var reader in ViewBag.Readers)
+                {
+                    <option value="@reader.Value">@reader.Text</option>
+                }
+            </select>
         </div>
         <button type="submit" class="btn btn-primary" style="margin-top:20px; margin-bottom:30px;">Виконати</button>
     </form>

@@ -7,16 +7,20 @@
       "RelativeMoniker": "D:0:0:{D56DC8A3-8751-4178-B19E-50B676E657D8}|LibraryInfrastructure\\LibraryInfrastructure.csproj|solutionrelative:libraryinfrastructure\\views\\books\\queries.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{D56DC8A3-8751-4178-B19E-50B676E657D8}|LibraryInfrastructure\\LibraryInfrastructure.csproj|c:\\users\\professional\\source\\repos\\lab2db\\libraryinfrastructure\\views\\books\\readers.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D56DC8A3-8751-4178-B19E-50B676E657D8}|LibraryInfrastructure\\LibraryInfrastructure.csproj|solutionrelative:libraryinfrastructure\\views\\books\\readers.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D56DC8A3-8751-4178-B19E-50B676E657D8}|LibraryInfrastructure\\LibraryInfrastructure.csproj|c:\\users\\professional\\source\\repos\\lab2db\\libraryinfrastructure\\controllers\\bookscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D56DC8A3-8751-4178-B19E-50B676E657D8}|LibraryInfrastructure\\LibraryInfrastructure.csproj|solutionrelative:libraryinfrastructure\\controllers\\bookscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{D56DC8A3-8751-4178-B19E-50B676E657D8}|LibraryInfrastructure\\LibraryInfrastructure.csproj|c:\\users\\professional\\source\\repos\\lab2db\\libraryinfrastructure\\views\\readers\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{D56DC8A3-8751-4178-B19E-50B676E657D8}|LibraryInfrastructure\\LibraryInfrastructure.csproj|solutionrelative:libraryinfrastructure\\views\\readers\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{D56DC8A3-8751-4178-B19E-50B676E657D8}|LibraryInfrastructure\\LibraryInfrastructure.csproj|c:\\users\\professional\\source\\repos\\lab2db\\libraryinfrastructure\\views\\books\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{D56DC8A3-8751-4178-B19E-50B676E657D8}|LibraryInfrastructure\\LibraryInfrastructure.csproj|solutionrelative:libraryinfrastructure\\views\\books\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D56DC8A3-8751-4178-B19E-50B676E657D8}|LibraryInfrastructure\\LibraryInfrastructure.csproj|c:\\users\\professional\\source\\repos\\lab2db\\libraryinfrastructure\\controllers\\bookscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D56DC8A3-8751-4178-B19E-50B676E657D8}|LibraryInfrastructure\\LibraryInfrastructure.csproj|solutionrelative:libraryinfrastructure\\controllers\\bookscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{D56DC8A3-8751-4178-B19E-50B676E657D8}|LibraryInfrastructure\\LibraryInfrastructure.csproj|c:\\users\\professional\\source\\repos\\lab2db\\libraryinfrastructure\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -237,32 +241,25 @@
               "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
             },
             {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
               "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "_Layout.cshtml",
-              "DocumentMoniker": "C:\\Users\\Professional\\source\\repos\\Lab2DB\\LibraryInfrastructure\\Views\\Shared\\_Layout.cshtml",
-              "RelativeDocumentMoniker": "LibraryInfrastructure\\Views\\Shared\\_Layout.cshtml",
-              "ToolTip": "C:\\Users\\Professional\\source\\repos\\Lab2DB\\LibraryInfrastructure\\Views\\Shared\\_Layout.cshtml",
-              "RelativeToolTip": "LibraryInfrastructure\\Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AQIAABkAAAAAAAAAAAAgwCkAAAAdAAAA",
+              "DocumentIndex": 1,
+              "Title": "Readers.cshtml",
+              "DocumentMoniker": "C:\\Users\\Professional\\source\\repos\\Lab2DB\\LibraryInfrastructure\\Views\\Books\\Readers.cshtml",
+              "RelativeDocumentMoniker": "LibraryInfrastructure\\Views\\Books\\Readers.cshtml",
+              "ToolTip": "C:\\Users\\Professional\\source\\repos\\Lab2DB\\LibraryInfrastructure\\Views\\Books\\Readers.cshtml",
+              "RelativeToolTip": "LibraryInfrastructure\\Views\\Books\\Readers.cshtml",
+              "ViewState": "AQIAABgAAAAAAAAAAAAAAAoAAAAZAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-05-14T20:02:43.939Z"
+              "WhenOpened": "2024-05-26T12:37:31.215Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "Reader.cs",
-              "DocumentMoniker": "C:\\Users\\Professional\\source\\repos\\Lab2DB\\LibraryDomain\\Model\\Reader.cs",
-              "RelativeDocumentMoniker": "LibraryDomain\\Model\\Reader.cs",
-              "ToolTip": "C:\\Users\\Professional\\source\\repos\\Lab2DB\\LibraryDomain\\Model\\Reader.cs",
-              "RelativeToolTip": "LibraryDomain\\Model\\Reader.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-14T19:48:16.694Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 17,
               "Title": "Librarian.cs",
               "DocumentMoniker": "C:\\Users\\Professional\\source\\repos\\Lab2DB\\LibraryDomain\\Model\\Librarian.cs",
               "RelativeDocumentMoniker": "LibraryDomain\\Model\\Librarian.cs",
@@ -274,7 +271,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "Book.cs",
               "DocumentMoniker": "C:\\Users\\Professional\\source\\repos\\Lab2DB\\LibraryDomain\\Model\\Book.cs",
               "RelativeDocumentMoniker": "LibraryDomain\\Model\\Book.cs",
@@ -282,12 +279,11 @@
               "RelativeToolTip": "LibraryDomain\\Model\\Book.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAAjAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-14T19:45:48.882Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-14T19:45:48.882Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 14,
               "Title": "Topic.cs",
               "DocumentMoniker": "C:\\Users\\Professional\\source\\repos\\Lab2DB\\LibraryDomain\\Model\\Topic.cs",
               "RelativeDocumentMoniker": "LibraryDomain\\Model\\Topic.cs",
@@ -299,20 +295,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 2,
               "Title": "BooksController.cs",
               "DocumentMoniker": "C:\\Users\\Professional\\source\\repos\\Lab2DB\\LibraryInfrastructure\\Controllers\\BooksController.cs",
               "RelativeDocumentMoniker": "LibraryInfrastructure\\Controllers\\BooksController.cs",
               "ToolTip": "C:\\Users\\Professional\\source\\repos\\Lab2DB\\LibraryInfrastructure\\Controllers\\BooksController.cs",
               "RelativeToolTip": "LibraryInfrastructure\\Controllers\\BooksController.cs",
-              "ViewState": "AQIAADAAAAAAAAAAAAAcwD8AAAAAAAAA",
+              "ViewState": "AQIAADcBAAAAAAAAAAAcwB8BAABOAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-14T19:43:19.205Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 12,
               "Title": "Author.cs",
               "DocumentMoniker": "C:\\Users\\Professional\\source\\repos\\Lab2DB\\LibraryDomain\\Model\\Author.cs",
               "RelativeDocumentMoniker": "LibraryDomain\\Model\\Author.cs",
@@ -324,7 +320,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\Professional\\source\\repos\\Lab2DB\\LibraryInfrastructure\\Views\\Readers\\Index.cshtml",
               "RelativeDocumentMoniker": "LibraryInfrastructure\\Views\\Readers\\Index.cshtml",
@@ -332,12 +328,11 @@
               "RelativeToolTip": "LibraryInfrastructure\\Views\\Readers\\Index.cshtml",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAARAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-05-14T22:19:20.441Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-14T22:19:20.441Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\Professional\\source\\repos\\Lab2DB\\LibraryInfrastructure\\Views\\Books\\Index.cshtml",
               "RelativeDocumentMoniker": "LibraryInfrastructure\\Views\\Books\\Index.cshtml",
@@ -345,8 +340,7 @@
               "RelativeToolTip": "LibraryInfrastructure\\Views\\Books\\Index.cshtml",
               "ViewState": "AQIAABkAAAAAAAAAAAAQwGcAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-05-14T19:45:19.343Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-14T19:45:19.343Z"
             },
             {
               "$type": "Document",
@@ -356,14 +350,10 @@
               "RelativeDocumentMoniker": "LibraryInfrastructure\\Views\\Books\\Queries.cshtml",
               "ToolTip": "C:\\Users\\Professional\\source\\repos\\Lab2DB\\LibraryInfrastructure\\Views\\Books\\Queries.cshtml",
               "RelativeToolTip": "LibraryInfrastructure\\Views\\Books\\Queries.cshtml",
-              "ViewState": "AQIAADAAAAAAAAAAAAAAAFYAAABiAAAA",
+              "ViewState": "AQIAAIUAAAAAAAAAAAAIwJwAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-05-15T05:58:24.397Z",
               "EditorCaption": ""
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{0ad07096-bba9-4900-a651-0598d26f6d24}"
             },
             {
               "$type": "Bookmark",
@@ -371,7 +361,31 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 9,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\Professional\\source\\repos\\Lab2DB\\LibraryInfrastructure\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "LibraryInfrastructure\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\Professional\\source\\repos\\Lab2DB\\LibraryInfrastructure\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "LibraryInfrastructure\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AQIAABkAAAAAAAAAAAAgwCkAAAAdAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-14T20:02:43.939Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Reader.cs",
+              "DocumentMoniker": "C:\\Users\\Professional\\source\\repos\\Lab2DB\\LibraryDomain\\Model\\Reader.cs",
+              "RelativeDocumentMoniker": "LibraryDomain\\Model\\Reader.cs",
+              "ToolTip": "C:\\Users\\Professional\\source\\repos\\Lab2DB\\LibraryDomain\\Model\\Reader.cs",
+              "RelativeToolTip": "LibraryDomain\\Model\\Reader.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-14T19:48:16.694Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
               "Title": "HomeController.cs",
               "DocumentMoniker": "C:\\Users\\Professional\\source\\repos\\Lab2DB\\LibraryInfrastructure\\Controllers\\HomeController.cs",
               "RelativeDocumentMoniker": "LibraryInfrastructure\\Controllers\\HomeController.cs",
@@ -379,12 +393,11 @@
               "RelativeToolTip": "LibraryInfrastructure\\Controllers\\HomeController.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-21T23:13:59.719Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-21T23:13:59.719Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 8,
               "Title": "Query1Result.cshtml",
               "DocumentMoniker": "C:\\Users\\Professional\\source\\repos\\Lab2DB\\LibraryInfrastructure\\Views\\Books\\Query1Result.cshtml",
               "RelativeDocumentMoniker": "LibraryInfrastructure\\Views\\Books\\Query1Result.cshtml",
@@ -396,7 +409,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "ReaderCardsController.cs",
               "DocumentMoniker": "C:\\Users\\Professional\\source\\repos\\Lab2DB\\LibraryInfrastructure\\Controllers\\ReaderCardsController.cs",
               "RelativeDocumentMoniker": "LibraryInfrastructure\\Controllers\\ReaderCardsController.cs",
@@ -404,12 +417,11 @@
               "RelativeToolTip": "LibraryInfrastructure\\Controllers\\ReaderCardsController.cs",
               "ViewState": "AQIAAFcAAAAAAAAAAAAowDMAAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-14T22:29:02.499Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-14T22:29:02.499Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 11,
               "Title": "AuthorBook.cs",
               "DocumentMoniker": "C:\\Users\\Professional\\source\\repos\\Lab2DB\\LibraryDomain\\Model\\AuthorBook.cs",
               "RelativeDocumentMoniker": "LibraryDomain\\Model\\AuthorBook.cs",
@@ -421,7 +433,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 15,
               "Title": "ReaderCard.cs",
               "DocumentMoniker": "C:\\Users\\Professional\\source\\repos\\Lab2DB\\LibraryDomain\\Model\\ReaderCard.cs",
               "RelativeDocumentMoniker": "LibraryDomain\\Model\\ReaderCard.cs",
@@ -433,7 +445,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 10,
               "Title": "Lab2DbContext.cs",
               "DocumentMoniker": "C:\\Users\\Professional\\source\\repos\\Lab2DB\\LibraryInfrastructure\\Lab2DbContext.cs",
               "RelativeDocumentMoniker": "LibraryInfrastructure\\Lab2DbContext.cs",
@@ -445,7 +457,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 13,
               "Title": "TopicBook.cs",
               "DocumentMoniker": "C:\\Users\\Professional\\source\\repos\\Lab2DB\\LibraryDomain\\Model\\TopicBook.cs",
               "RelativeDocumentMoniker": "LibraryDomain\\Model\\TopicBook.cs",
@@ -457,7 +469,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 20,
               "Title": "Create.cshtml",
               "DocumentMoniker": "C:\\Users\\Professional\\source\\repos\\Lab2DB\\LibraryInfrastructure\\Views\\Books\\Create.cshtml",
               "RelativeDocumentMoniker": "LibraryInfrastructure\\Views\\Books\\Create.cshtml",
@@ -469,7 +481,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 21,
               "Title": "Delete.cshtml",
               "DocumentMoniker": "C:\\Users\\Professional\\source\\repos\\Lab2DB\\LibraryInfrastructure\\Views\\Books\\Delete.cshtml",
               "RelativeDocumentMoniker": "LibraryInfrastructure\\Views\\Books\\Delete.cshtml",
@@ -481,7 +493,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 22,
               "Title": "Details.cshtml",
               "DocumentMoniker": "C:\\Users\\Professional\\source\\repos\\Lab2DB\\LibraryInfrastructure\\Views\\Books\\Details.cshtml",
               "RelativeDocumentMoniker": "LibraryInfrastructure\\Views\\Books\\Details.cshtml",
@@ -493,7 +505,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 23,
               "Title": "Edit.cshtml",
               "DocumentMoniker": "C:\\Users\\Professional\\source\\repos\\Lab2DB\\LibraryInfrastructure\\Views\\Books\\Edit.cshtml",
               "RelativeDocumentMoniker": "LibraryInfrastructure\\Views\\Books\\Edit.cshtml",
@@ -505,7 +517,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
+              "DocumentIndex": 26,
               "Title": "Details.cshtml",
               "DocumentMoniker": "C:\\Users\\Professional\\source\\repos\\Lab2DB\\LibraryInfrastructure\\Views\\ReaderCards\\Details.cshtml",
               "RelativeDocumentMoniker": "LibraryInfrastructure\\Views\\ReaderCards\\Details.cshtml",
@@ -517,7 +529,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 19,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\Professional\\source\\repos\\Lab2DB\\LibraryInfrastructure\\Views\\Authors\\Index.cshtml",
               "RelativeDocumentMoniker": "LibraryInfrastructure\\Views\\Authors\\Index.cshtml",
@@ -529,7 +541,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 18,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\Professional\\source\\repos\\Lab2DB\\LibraryInfrastructure\\Program.cs",
               "RelativeDocumentMoniker": "LibraryInfrastructure\\Program.cs",
@@ -541,7 +553,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 24,
               "Title": "Create.cshtml",
               "DocumentMoniker": "C:\\Users\\Professional\\source\\repos\\Lab2DB\\LibraryInfrastructure\\Views\\ReaderCards\\Create.cshtml",
               "RelativeDocumentMoniker": "LibraryInfrastructure\\Views\\ReaderCards\\Create.cshtml",
@@ -553,7 +565,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 29,
+              "DocumentIndex": 30,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\Professional\\source\\repos\\Lab2DB\\LibraryInfrastructure\\Views\\Home\\Index.cshtml",
               "RelativeDocumentMoniker": "LibraryInfrastructure\\Views\\Home\\Index.cshtml",
@@ -565,7 +577,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 28,
+              "DocumentIndex": 29,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\Professional\\source\\repos\\Lab2DB\\LibraryInfrastructure\\Views\\ReaderCards\\Index.cshtml",
               "RelativeDocumentMoniker": "LibraryInfrastructure\\Views\\ReaderCards\\Index.cshtml",
@@ -577,7 +589,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 27,
+              "DocumentIndex": 28,
               "Title": "ReadersController.cs",
               "DocumentMoniker": "C:\\Users\\Professional\\source\\repos\\Lab2DB\\LibraryInfrastructure\\Controllers\\ReadersController.cs",
               "RelativeDocumentMoniker": "LibraryInfrastructure\\Controllers\\ReadersController.cs",
@@ -589,7 +601,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 26,
+              "DocumentIndex": 27,
               "Title": "Details.cshtml",
               "DocumentMoniker": "C:\\Users\\Professional\\source\\repos\\Lab2DB\\LibraryInfrastructure\\Views\\Readers\\Details.cshtml",
               "RelativeDocumentMoniker": "LibraryInfrastructure\\Views\\Readers\\Details.cshtml",
@@ -601,7 +613,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 25,
               "Title": "Delete.cshtml",
               "DocumentMoniker": "C:\\Users\\Professional\\source\\repos\\Lab2DB\\LibraryInfrastructure\\Views\\ReaderCards\\Delete.cshtml",
               "RelativeDocumentMoniker": "LibraryInfrastructure\\Views\\ReaderCards\\Delete.cshtml",
@@ -613,7 +625,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 33,
+              "DocumentIndex": 34,
               "Title": "Details.cshtml",
               "DocumentMoniker": "C:\\Users\\Professional\\source\\repos\\Lab2DB\\LibraryInfrastructure\\Views\\Librarians\\Details.cshtml",
               "RelativeDocumentMoniker": "LibraryInfrastructure\\Views\\Librarians\\Details.cshtml",
@@ -625,7 +637,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 32,
+              "DocumentIndex": 33,
               "Title": "Delete.cshtml",
               "DocumentMoniker": "C:\\Users\\Professional\\source\\repos\\Lab2DB\\LibraryInfrastructure\\Views\\Librarians\\Delete.cshtml",
               "RelativeDocumentMoniker": "LibraryInfrastructure\\Views\\Librarians\\Delete.cshtml",
@@ -637,7 +649,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 31,
+              "DocumentIndex": 32,
               "Title": "Create.cshtml",
               "DocumentMoniker": "C:\\Users\\Professional\\source\\repos\\Lab2DB\\LibraryInfrastructure\\Views\\Librarians\\Create.cshtml",
               "RelativeDocumentMoniker": "LibraryInfrastructure\\Views\\Librarians\\Create.cshtml",
@@ -649,7 +661,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 30,
+              "DocumentIndex": 31,
               "Title": "Edit.cshtml",
               "DocumentMoniker": "C:\\Users\\Professional\\source\\repos\\Lab2DB\\LibraryInfrastructure\\Views\\ReaderCards\\Edit.cshtml",
               "RelativeDocumentMoniker": "LibraryInfrastructure\\Views\\ReaderCards\\Edit.cshtml",
@@ -661,7 +673,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 34,
+              "DocumentIndex": 35,
               "Title": "Edit.cshtml",
               "DocumentMoniker": "C:\\Users\\Professional\\source\\repos\\Lab2DB\\LibraryInfrastructure\\Views\\Librarians\\Edit.cshtml",
               "RelativeDocumentMoniker": "LibraryInfrastructure\\Views\\Librarians\\Edit.cshtml",
@@ -673,7 +685,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 35,
+              "DocumentIndex": 36,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\Professional\\source\\repos\\Lab2DB\\LibraryInfrastructure\\Views\\Librarians\\Index.cshtml",
               "RelativeDocumentMoniker": "LibraryInfrastructure\\Views\\Librarians\\Index.cshtml",
@@ -685,7 +697,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 36,
+              "DocumentIndex": 37,
               "Title": "LibrariansController.cs",
               "DocumentMoniker": "C:\\Users\\Professional\\source\\repos\\Lab2DB\\LibraryInfrastructure\\Controllers\\LibrariansController.cs",
               "RelativeDocumentMoniker": "LibraryInfrastructure\\Controllers\\LibrariansController.cs",
@@ -697,7 +709,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 37,
+              "DocumentIndex": 38,
               "Title": "Create.cshtml",
               "DocumentMoniker": "C:\\Users\\Professional\\source\\repos\\Lab2DB\\LibraryInfrastructure\\Views\\Readers\\Create.cshtml",
               "RelativeDocumentMoniker": "LibraryInfrastructure\\Views\\Readers\\Create.cshtml",
@@ -709,7 +721,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 38,
+              "DocumentIndex": 39,
               "Title": "Delete.cshtml",
               "DocumentMoniker": "C:\\Users\\Professional\\source\\repos\\Lab2DB\\LibraryInfrastructure\\Views\\Readers\\Delete.cshtml",
               "RelativeDocumentMoniker": "LibraryInfrastructure\\Views\\Readers\\Delete.cshtml",
@@ -721,7 +733,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 39,
+              "DocumentIndex": 40,
               "Title": "Edit.cshtml",
               "DocumentMoniker": "C:\\Users\\Professional\\source\\repos\\Lab2DB\\LibraryInfrastructure\\Views\\Readers\\Edit.cshtml",
               "RelativeDocumentMoniker": "LibraryInfrastructure\\Views\\Readers\\Edit.cshtml",
@@ -733,7 +745,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 41,
+              "DocumentIndex": 42,
               "Title": "Delete.cshtml",
               "DocumentMoniker": "C:\\Users\\Professional\\source\\repos\\Lab2DB\\LibraryInfrastructure\\Views\\Authors\\Delete.cshtml",
               "RelativeDocumentMoniker": "LibraryInfrastructure\\Views\\Authors\\Delete.cshtml",
@@ -745,7 +757,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 40,
+              "DocumentIndex": 41,
               "Title": "Create.cshtml",
               "DocumentMoniker": "C:\\Users\\Professional\\source\\repos\\Lab2DB\\LibraryInfrastructure\\Views\\Authors\\Create.cshtml",
               "RelativeDocumentMoniker": "LibraryInfrastructure\\Views\\Authors\\Create.cshtml",
@@ -757,7 +769,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 45,
+              "DocumentIndex": 46,
               "Title": "Delete.cshtml",
               "DocumentMoniker": "C:\\Users\\Professional\\source\\repos\\Lab2DB\\LibraryInfrastructure\\Views\\Topics\\Delete.cshtml",
               "RelativeDocumentMoniker": "LibraryInfrastructure\\Views\\Topics\\Delete.cshtml",
@@ -769,7 +781,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 42,
+              "DocumentIndex": 43,
               "Title": "Details.cshtml",
               "DocumentMoniker": "C:\\Users\\Professional\\source\\repos\\Lab2DB\\LibraryInfrastructure\\Views\\Authors\\Details.cshtml",
               "RelativeDocumentMoniker": "LibraryInfrastructure\\Views\\Authors\\Details.cshtml",
@@ -781,7 +793,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 44,
+              "DocumentIndex": 45,
               "Title": "AuthorsController.cs",
               "DocumentMoniker": "C:\\Users\\Professional\\source\\repos\\Lab2DB\\LibraryInfrastructure\\Controllers\\AuthorsController.cs",
               "RelativeDocumentMoniker": "LibraryInfrastructure\\Controllers\\AuthorsController.cs",
@@ -793,7 +805,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 43,
+              "DocumentIndex": 44,
               "Title": "Edit.cshtml",
               "DocumentMoniker": "C:\\Users\\Professional\\source\\repos\\Lab2DB\\LibraryInfrastructure\\Views\\Authors\\Edit.cshtml",
               "RelativeDocumentMoniker": "LibraryInfrastructure\\Views\\Authors\\Edit.cshtml",
@@ -805,7 +817,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 46,
+              "DocumentIndex": 47,
               "Title": "TopicsController.cs",
               "DocumentMoniker": "C:\\Users\\Professional\\source\\repos\\Lab2DB\\LibraryInfrastructure\\Controllers\\TopicsController.cs",
               "RelativeDocumentMoniker": "LibraryInfrastructure\\Controllers\\TopicsController.cs",
@@ -817,7 +829,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 50,
+              "DocumentIndex": 51,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\Professional\\source\\repos\\Lab2DB\\LibraryInfrastructure\\Views\\Topics\\Index.cshtml",
               "RelativeDocumentMoniker": "LibraryInfrastructure\\Views\\Topics\\Index.cshtml",
@@ -829,7 +841,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 49,
+              "DocumentIndex": 50,
               "Title": "Edit.cshtml",
               "DocumentMoniker": "C:\\Users\\Professional\\source\\repos\\Lab2DB\\LibraryInfrastructure\\Views\\Topics\\Edit.cshtml",
               "RelativeDocumentMoniker": "LibraryInfrastructure\\Views\\Topics\\Edit.cshtml",
@@ -841,7 +853,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 48,
+              "DocumentIndex": 49,
               "Title": "Details.cshtml",
               "DocumentMoniker": "C:\\Users\\Professional\\source\\repos\\Lab2DB\\LibraryInfrastructure\\Views\\Topics\\Details.cshtml",
               "RelativeDocumentMoniker": "LibraryInfrastructure\\Views\\Topics\\Details.cshtml",
@@ -853,7 +865,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 47,
+              "DocumentIndex": 48,
               "Title": "Create.cshtml",
               "DocumentMoniker": "C:\\Users\\Professional\\source\\repos\\Lab2DB\\LibraryInfrastructure\\Views\\Topics\\Create.cshtml",
               "RelativeDocumentMoniker": "LibraryInfrastructure\\Views\\Topics\\Create.cshtml",
@@ -865,7 +877,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 51,
+              "DocumentIndex": 52,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Users\\Professional\\source\\repos\\Lab2DB\\LibraryInfrastructure\\appsettings.json",
               "RelativeDocumentMoniker": "LibraryInfrastructure\\appsettings.json",
@@ -877,7 +889,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 52,
+              "DocumentIndex": 53,
               "Title": "Lab2DbContext.cs",
               "DocumentMoniker": "C:\\Users\\Professional\\source\\repos\\Lab2DB\\LibraryDomain\\Model\\Lab2DbContext.cs",
               "RelativeDocumentMoniker": "LibraryDomain\\Model\\Lab2DbContext.cs",
@@ -889,7 +901,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 53,
+              "DocumentIndex": 54,
               "Title": "LibraryInfrastructure.csproj",
               "DocumentMoniker": "C:\\Users\\Professional\\source\\repos\\Lab2DB\\LibraryInfrastructure\\LibraryInfrastructure.csproj",
               "RelativeDocumentMoniker": "LibraryInfrastructure\\LibraryInfrastructure.csproj",
@@ -901,7 +913,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 54,
+              "DocumentIndex": 55,
               "Title": "LibraryDomain.csproj",
               "DocumentMoniker": "C:\\Users\\Professional\\source\\repos\\Lab2DB\\LibraryDomain\\LibraryDomain.csproj",
               "RelativeDocumentMoniker": "LibraryDomain\\LibraryDomain.csproj",
